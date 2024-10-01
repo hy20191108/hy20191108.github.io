@@ -3,7 +3,7 @@ title: Poole
 tagline: The Jekyll Butler
 url: https://getpoole.com
 paginate: 1
-baseurl: ""
+baseurl: "https://hy20191108.github.io/hy20191108/"
 permalink: pretty
 
 # Gems
