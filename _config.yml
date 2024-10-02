@@ -1,9 +1,7 @@
 # Setup
 title: NAIST学生 吉岡春彦 研究業績一覧
-# url: https://hy20191108.github.io/hy20191108/
-# paginate: 1
-# baseurl: "https://hy20191108.github.io/hy20191108/"
-# permalink: pretty
+show_downloads: true
+markdown: kramdown
 
 # Gems
 plugins:
