@@ -17,12 +17,6 @@ e-mail: yoshioka.haruhiko.yi4@naist.ac.jp
 | 2022/04~ | 奈良工業高等専門学校 システム創成工学専攻 情報システムコース 卒業 |
 | 2017/04~ | 奈良工業高等専門学校 情報工学科 卒業 |
 
-| 期間 | 所属 |
-|-------|--------|
-| 2024/04~ | 奈良先端科学技術大学院大学 先端科学技術研究科 情報科学領域 |
-| 2022/04~ | 奈良工業高等専門学校 システム創成工学専攻 情報システムコース 卒業 |
-| 2017/04~ | 奈良工業高等専門学校 情報工学科 卒業 |
-
 ## 研究業績
 ### 論文誌
 - Yoshioka Haruhiko and Uwano Hidetake, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," Networking and Parallel/Distributed Computing Systems, volume 18, pages 137-152, April 2024.
