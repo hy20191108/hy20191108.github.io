@@ -17,11 +17,11 @@ e-mail: yoshioka.haruhiko.yi4@naist.ac.jp
 | 2022/04~ | 奈良工業高等専門学校 システム創成工学専攻 情報システムコース 卒業 |
 | 2017/04~ | 奈良工業高等専門学校 情報工学科 卒業 |
 
-| Priority apples | Second priority | Third priority |
-|-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
+| Priority apples | Second priority |
+|-------|--------|
+| ambrosia | gala |
+| pink lady | jazz |
+| honeycrisp | granny smith |
 
 ## 研究業績
 ### 論文誌
