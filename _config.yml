@@ -1,5 +1,5 @@
 # Setup
-title: NAIST学生 吉岡春彦 研究業績一覧
+title: 吉岡春彦 研究業績一覧
 show_downloads: true
 markdown: kramdown
 
@@ -8,6 +8,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Optimize Jekyll
 exclude:
