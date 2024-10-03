@@ -2,7 +2,7 @@
 奈良先端科学技術大学院大学 先端科学技術研究科 情報科学領域 ソフトウェア工学研究室 修士1年
 
 ## 連絡先
-e-mail: yoshioka.haruhiko.yi4@naist.ac.jp
+e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
 
 ## 研究テーマ・専門分野
 - ソフトウェア工学
