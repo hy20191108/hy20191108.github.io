@@ -18,7 +18,7 @@ e-mail: yoshioka.haruhiko.yi4@naist.ac.jp
 | 2022/04~ | 奈良工業高等専門学校 システム創成工学専攻 情報システムコース 首席卒業 |
 | 2017/04~ | 奈良工業高等専門学校 情報工学科 卒業 |
 
-# 表彰
+## 表彰
 - [令和５年度修了生 専攻科研究優秀賞](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
 
 ## 研究業績
