@@ -1,9 +1,5 @@
----
-# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
-# only main files contain this front matter, not partials.
----
-
-//
+--- # Use a comment to ensure Jekyll reads the file to be transformed into CSS later only main files contain this front matter,
+not partials. --- //
 //                        ___
 //                       /\_ \
 //  _____     ___     ___\//\ \      __
@@ -38,7 +34,7 @@
     width: 3rem;
     height: 3rem;
     border-radius: var(--border-radius);
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,.15);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .15);
   }
 
   dd {
