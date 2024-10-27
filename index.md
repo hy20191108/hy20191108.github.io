@@ -45,6 +45,5 @@ e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
 
 ## その他
 - [JPHACKS2024](https://jphacks.com/2024/)
-  - 江崎グリコ株式会社 賞
   - Best Hackday Award受賞
-
+  - Sponsor Award受賞（江崎グリコ株式会社）
