@@ -44,6 +44,6 @@ e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
 - 吉岡春彦, "意味に基づいたプログラム理解パターン抽出のための構文木と視線移動の自動マッピング," , 2022年2月.
 
 ## その他
-- [JPHACKS2024](https://jphacks.com/2024/)
+- [JPHACKS2024](https://jphacks.com/2024/) ([レポジトリ](https://github.com/jphacks/os_2407))
   - Best Hackday Award受賞
   - Sponsor Award受賞（江崎グリコ株式会社）
