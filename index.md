@@ -45,6 +45,10 @@ e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
 
 ## その他
 - [JPHACKS2024](https://jphacks.com/2024/) ([作品](https://github.com/jphacks/os_2407))
-  - [JPHACKS Fialist Award受賞](https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix))
-  - Best Hackday Award受賞
-  - Sponsor Award受賞（江崎グリコ株式会社）
+  - JPHACKS Award
+    - JPHACKS Innovator認定
+    - Sponsor Awards 株式会社Galirage 受賞
+  - JPHACKS Hack Day
+    - [JPHACKS Fialist Award受賞](https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix))
+    - Best Hack Day Award受賞
+    - Sponsor Award受賞 江崎グリコ株式会社 受賞
