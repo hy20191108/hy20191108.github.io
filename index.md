@@ -51,4 +51,4 @@ e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
   - JPHACKS Hack Day
     - [JPHACKS Fialist Award受賞](https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix))
     - Best Hack Day Award受賞
-    - Sponsor Award受賞 江崎グリコ株式会社 受賞
+    - Sponsor Award 江崎グリコ株式会社 受賞
