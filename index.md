@@ -11,6 +11,9 @@ e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
   - 主にプログラム理解，プログラミング教育
 - 視線分析
 
+## 研究業績
+研究業績は[こちら](achievements.md)
+
 ## 学歴
 
 | 期間 | 所属 |
@@ -18,13 +21,6 @@ e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
 | 2024/04~ | 奈良先端科学技術大学院大学 先端科学技術研究科 情報科学領域 |
 | 2022/04~ | 奈良工業高等専門学校 システム創成工学専攻 情報システムコース 首席卒業 |
 | 2017/04~ | 奈良工業高等専門学校 情報工学科 卒業 |
-
-## 表彰
-- [令和５年度修了生 専攻科研究優秀賞](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
-
-## 研究業績
-研究業績は[こちら](achievements.md)
-
 
 ## その他
 - [JPHACKS2024](https://jphacks.com/2024/) ([作品](https://github.com/jphacks/os_2407))
@@ -35,3 +31,4 @@ e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
     - [JPHACKS Fialist Award受賞](https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix))
     - Best Hack Day Award受賞
     - Sponsor Award 江崎グリコ株式会社 受賞
+- [令和５年度修了生 専攻科研究優秀賞](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
