@@ -23,7 +23,7 @@ e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
 | 2017/04~ | 奈良工業高等専門学校 情報工学科 卒業 |
 
 ## その他
-- [JPHACKS2024](https://jphacks.com/2024/) ([作品](https://github.com/jphacks/os_2407))
+- [JPHACKS2024 98チーム中5位](https://jphacks.com/2024/) ([作品](https://github.com/jphacks/os_2407))
   - JPHACKS Award
     - [JPHACKS Innovator認定](https://jphacks.com/2024/result/)
     - Sponsor Awards 株式会社Galirage 受賞
