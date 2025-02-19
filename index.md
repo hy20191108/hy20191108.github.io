@@ -2,7 +2,8 @@
   <div style="flex: 0 0 auto;">
     <img src="{{ '/images/yoshioka.jpg' | relative_url }}" alt="画像の説明" style="width: 200px; max-width: 100%; height: auto;">
   </div>
-  <div style="flex: 1; padding-left: 20px;">
+  <br>
+  <div style="flex: 1;">
     <h1>吉岡 春彦（よしおか はるひこ）</h1>
     <p style="word-break: keep-all;">
       奈良先端科学技術大学院大学<br>
