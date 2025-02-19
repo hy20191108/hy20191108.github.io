@@ -1,10 +1,12 @@
+![顔写真]({{ site.baseurl }}/images/yoshioka.jpg)
+
 <div style="display: flex; align-items: center;">
   <div style="flex: 0 0 auto;">
     <img src="{{ '/images/yoshioka.jpg' | relative_url }}" alt="画像の説明" style="width: 200px; max-width: 100%; height: auto;">
   </div>
   <div style="flex: 1; padding-left: 20px;">
     <h1>吉岡 春彦（よしおか はるひこ）</h1>
-    <p>
+    <p style="word-break: keep-all;">
       奈良先端科学技術大学院大学<br>
       先端科学技術研究科 情報科学領域<br>
       ソフトウェア工学研究室 修士1年
@@ -27,11 +29,11 @@ e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
 
 ## 学歴
 
-| 期間 | 所属 |
-|-------|--------|
-| 2024/04~ | 奈良先端科学技術大学院大学 先端科学技術研究科 情報科学領域 |
+| 期間     | 所属                                                                  |
+| -------- | --------------------------------------------------------------------- |
+| 2024/04~ | 奈良先端科学技術大学院大学 先端科学技術研究科 情報科学領域            |
 | 2022/04~ | 奈良工業高等専門学校 システム創成工学専攻 情報システムコース 首席卒業 |
-| 2017/04~ | 奈良工業高等専門学校 情報工学科 卒業 |
+| 2017/04~ | 奈良工業高等専門学校 情報工学科 卒業                                  |
 
 ## その他
 - [JPHACKS2024](https://jphacks.com/2024/) ([作品](https://github.com/jphacks/os_2407))
