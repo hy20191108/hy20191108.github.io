@@ -1,7 +1,19 @@
-# 吉岡 春彦（よしおか はるひこ）
-奈良先端科学技術大学院大学<br>
-先端科学技術研究科 情報科学領域<br>
-ソフトウェア工学研究室 修士1年
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+  <div style="flex: 0 0 auto;">
+    <img src="images/yoshioka.jpg" alt="画像の説明" style="width: 200px; max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+    <h1>吉岡 春彦（よしおか はるひこ）</h1>
+    <p>
+      奈良先端科学技術大学院大学<br>
+      先端科学技術研究科 情報科学領域<br>
+      ソフトウェア工学研究室 修士1年
+    </p>
+  </div>
+</div>
+
+
+
 
 ## 連絡先
 e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
