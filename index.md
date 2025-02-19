@@ -1,5 +1,3 @@
-![顔写真]({{ site.baseurl }}/images/yoshioka.jpg)
-
 <div style="display: flex; align-items: center;">
   <div style="flex: 0 0 auto;">
     <img src="{{ '/images/yoshioka.jpg' | relative_url }}" alt="画像の説明" style="width: 200px; max-width: 100%; height: auto;">
