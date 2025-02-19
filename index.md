@@ -11,6 +11,9 @@ e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
   - 主にプログラム理解，プログラミング教育
 - 視線分析
 
+## 研究業績
+研究業績は[こちら](achievements.md)
+
 ## 学歴
 
 | 期間 | 所属 |
@@ -19,27 +22,14 @@ e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
 | 2022/04~ | 奈良工業高等専門学校 システム創成工学専攻 情報システムコース 首席卒業 |
 | 2017/04~ | 奈良工業高等専門学校 情報工学科 卒業 |
 
-## 表彰
+## その他
+- [JPHACKS2024](https://jphacks.com/2024/) ([作品](https://github.com/jphacks/os_2407))
+  - 98チーム中5位
+  - JPHACKS Award
+    - [JPHACKS Innovator認定](https://jphacks.com/2024/result/)
+    - Sponsor Awards 株式会社Galirage 受賞
+  - JPHACKS Hack Day
+    - [JPHACKS Fialist Award受賞](https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix))
+    - Best Hack Day Award受賞
+    - [Sponsor Award 江崎グリコ株式会社 受賞](https://www.glico.com/jp/health/contents/JPHACKS_2024/)
 - [令和５年度修了生 専攻科研究優秀賞](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
-
-## 研究業績
-### 論文誌
-- Yoshioka Haruhiko and Uwano Hidetake, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," Networking and Parallel/Distributed Computing Systems, volume 18, pages 137-152, April 2024.
-
-### 国際会議
-- Haruhiko Yoshioka and Hidetake Uwano, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," In 26th IEEE/ACIS International Winter Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD2023-Winter), December 2023.
-- Haruhiko Yoshioka and Hidetake Uwano, "Automatic Mapping of Syntax Trees and Eye Movement for Semantic-Based Program Comprehension Pattern Extraction," In International Symposium on Advances in Technology Education (ISATE) 2022, pages 220-224, 2022.
-
-### 国内会議(査読付き)
-- 吉岡春彦, 上野秀剛, "プログラム理解パターン抽出のための構文木と視線移動の自動マッピング手法," ソフトウェア工学の基礎29, pages 34-42, 2022年.
-
-### 研究会・全国大会等
-- 吉岡春彦, 上野秀剛, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," ソフトウェアエンジニアリングシンポジウム2023論文集, pages 183-190, 2023年.
-
-### 表彰・受賞
-- 吉岡春彦, 上野秀剛, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," ソフトウェアエンジニアリングシンポジウム2023論文集, pages 183-190, 2023年.
-
-### 学位論文・卒論・特別研究
-- 吉岡 春彦, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," , 2024年2月.
-- 吉岡春彦, "意味に基づいたプログラム理解パターン抽出のための構文木と視線移動の自動マッピング," , 2022年2月.
-
