@@ -1,4 +1,4 @@
-[[Japanese]](index.md)
+[[Japanese]](../index.md)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 0 0 auto;">
