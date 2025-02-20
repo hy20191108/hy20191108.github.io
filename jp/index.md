@@ -1,4 +1,7 @@
-[[English]](/en/index.md)
+---
+layout: default
+title: Top
+---
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
