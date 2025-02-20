@@ -1,12 +1,12 @@
-[[Japanese]](../index.md)
+[[Japanese]](/index.md)
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 0 0 auto;">
-    <img src="{{ '/images/yoshioka.jpg' | relative_url }}" alt="Image description" style="width: 200px; max-width: 100%; height: auto;">
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+  <div style="flex: 0 0 auto; margin-right: 20px;">
+    <img src="{{ '/images/yoshioka.jpg' | relative_url }}" alt="画像の説明" style="width: 200px; max-width: 100%; height: auto;">
   </div>
-  <div style="flex: 1; padding-left: 20px;">
+  <div style="flex: 1; word-break: keep-all;">
     <h1>Haruhiko Yoshioka (吉岡 春彦)</h1>
-    <p style="word-break: keep-all;">
+    <p>
       Nara Institute of Science and Technology (NAIST)<br>
       Graduate School of Science and Technology, Information Science Department<br>
       Master’s Student, Software Engineering Lab (1st Year)
