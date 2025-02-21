@@ -2,7 +2,11 @@
 奈良先端科学技術大学院大学<br>
 先端科学技術研究科 情報科学領域<br>
 ソフトウェア工学研究室 修士1年
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 851a87c51ff3ef5d55bf238b2c398247037b7d12
 ## 連絡先
 e-mail: yoshioka.haruhiko.yi4[at]naist.ac.jp
 
