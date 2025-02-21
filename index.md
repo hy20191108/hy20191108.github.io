@@ -1,5 +1,7 @@
+---
 layout: default
 title: "Welcome"
+---
 
 <script>
   var userLang = navigator.language || navigator.userLanguage;
