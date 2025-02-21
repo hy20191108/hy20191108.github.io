@@ -45,3 +45,10 @@
     margin-left: var(--spacer);
   }
 }
+
+navi {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--spacer);
+  margin-bottom: var(--spacer);
+}
