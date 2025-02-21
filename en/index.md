@@ -33,8 +33,8 @@ See [here](achievements.md) for details.
 | Period   | Institution                                                                                                          |
 | -------- | -------------------------------------------------------------------------------------------------------------------- |
 | 2024/04~ | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology |
-| 2022/04~ | Department of Information Engineering, National Institute of Technology, Nara College (Valedictorian)                |
-| 2017/04~ | Department of Advanced Information Engineering, National Institute of Technology, Nara College                       |
+| 2022/04~ | Department of Advanced Information Engineering, National Institute of Technology, Nara College (Valedictorian)       |
+| 2017/04~ | Department of Information Engineering, National Institute of Technology, Nara College                                |
 
 ## Other
 - **[JPHACKS2024](https://jphacks.com/2024/)** ([Project](https://github.com/jphacks/os_2407))
