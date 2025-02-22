@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Haruhiko Yoshioka
+title: 吉岡 春彦
 ---
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">

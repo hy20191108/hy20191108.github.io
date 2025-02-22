@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Achievements
+title: 業績
 ---
 
 # 研究業績
