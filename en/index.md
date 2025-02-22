@@ -21,9 +21,8 @@ title: Top
 - **E-mail:** `yoshioka.haruhiko.yi4[at]naist.ac.jp`
 
 ## Research Interests & Expertise
-- **Software Engineering**
-  - Mainly in program comprehension and programming education
-- **Eye Tracking**
+- Software Engineering (Program Comprehension and Programming Education)
+- Eye Tracking
 
 ## Research Achievements
 See [here](achievements.md) for details.
