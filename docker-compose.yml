@@ -1,9 +1,7 @@
-version: '3'
 services:
   jekyll:
-    image: jekyll/jekyll:latest
-    volumes:
-      - .:/srv/jekyll
+    build: .
     ports:
-      - "4000:4000"
-    command: jekyll serve --watch --host 0.0.0.0
+      - 4000:4000
+    volumes:
+      - ".:/srv/jekyll"
