@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Top
+title: Haruhiko Yoshioka
 ---
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
