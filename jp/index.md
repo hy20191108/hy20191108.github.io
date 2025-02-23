@@ -26,7 +26,7 @@ title: 吉岡 春彦
 - 視線分析
 
 ## 研究業績
-研究業績は [こちら](achievements.md)
+詳細は[こちら](achievements.md)
 
 ## 学歴
 
