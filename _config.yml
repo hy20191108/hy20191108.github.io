@@ -5,11 +5,19 @@ markdown: kramdown
 
 # Gems
 plugins:
+  - jekyll-coffeescript
+  # - jekyll-default-layout
   - jekyll-gist
+  # - jekyll-github-metadata
+  - jekyll-optional-front-matter
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-readme-index
+  - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-titles-from-headings
+
 
 # Optimize Jekyll
 exclude:
