@@ -19,6 +19,7 @@ title: 吉岡 春彦
 
 ## 連絡先
 - **E-mail:** `yoshioka.haruhiko.yi4[at]naist.ac.jp`
+- **GitHub:** [hy20191108](https://github.com/hy20191108)
 
 ## 研究テーマ・専門分野
 - ソフトウェア工学 (プログラム理解，プログラミング教育)

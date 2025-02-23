@@ -19,6 +19,7 @@ title: Haruhiko Yoshioka
 
 ## Contact
 - **E-mail:** `yoshioka.haruhiko.yi4[at]naist.ac.jp`
+- **GitHub:** [hy20191108](https://github.com/hy20191108)
 
 ## Research Interests & Expertise
 - Software Engineering (Program Comprehension and Programming Education)
