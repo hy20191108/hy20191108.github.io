@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Haruhiko Yoshioka"
+title: "Redirect"
 ---
 
 <script>
