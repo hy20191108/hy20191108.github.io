@@ -6,7 +6,7 @@ title: Achievements
 # Research Achievements
 
 ## Journal Articles
-- **<u>Yoshioka Haruhiko</u>** and Uwano Hidetake, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," *Networking and Parallel/Distributed Computing Systems*, Volume 18, pages 137–152, April 2024.
+- **<u>Haruhiko Yoshioka</u>** and Uwano Hidetake, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," *Networking and Parallel/Distributed Computing Systems*, Volume 18, pages 137–152, April 2024.
 
 ## International Conferences
 - **<u>Haruhiko Yoshioka</u>**, Sila Lertbanjongngam, Masayuki Inaba, Youmei Fan, Takashi Nakano, Kazumasa Shimari, Raula Gaikovina Kula, Kenichi Matsumoto, "Do Developers Depend on Deprecated Library Versions? A Mining Study of Log4j," *Mining Software Repositories (MSR) 2025 Mining Challenge*, pages XXX–XXX, 2025.
