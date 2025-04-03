@@ -36,7 +36,14 @@ title: 吉岡 春彦
 | 2022/04～ | 奈良工業高等専門学校 システム創成工学専攻 情報システムコース 首席卒業 |
 | 2017/04～ | 奈良工業高等専門学校 情報工学科 卒業 |
 
+## 学会活動
+
+| 期間 | 役職 | 学会，会議名 |
+|-------|--------|--------|
+| 2024 | 運営/若手チーム | [国際ワークショップWIREDS2024](https://wireds2024.github.io/) |
+
 ## その他
+- [NAIST STELLA](https://sites.google.com/view/naist-stella/overview) 2024 学生メンター
 - **[JPHACKS2024](https://jphacks.com/2024/)** ([作品](https://github.com/jphacks/os_2407))
   - 98チーム中5位
   - **JPHACKS Award**
