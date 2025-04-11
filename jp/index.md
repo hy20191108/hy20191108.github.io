@@ -41,8 +41,8 @@ title: 吉岡 春彦
 
 | 期間 | 役職 | 学会，会議名 |
 |-------|--------|--------|
+| 2025（予定） | 学生ボランティア | [ETRA2025](https://etra.acm.org/2025/index.html) |
 | 2024 | 運営/若手チーム | [国際ワークショップWIREDS2024](https://wireds2024.github.io/) |
-<!-- | 2025 | 学生ボランティア | [ETRA2025](https://etra.acm.org/2025/index.html) | -->
 
 ## その他
 - [NAIST STELLA](https://sites.google.com/view/naist-stella/overview) 2024 学生メンター
