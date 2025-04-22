@@ -23,6 +23,7 @@ title: Haruhiko Yoshioka
 - **GitHub:** [hy20191108](https://github.com/hy20191108)
 
 ## Research Topics & Expertise
+I am researching methods to automatically interpret software developers' eye tracking data using natural language processing techniques, enabling analysis through machine learning and deep learning, with the aim of supporting program comprehension.
 - Program Comprehension, Programming Education (Software Engineering)
 - Eye Movement Analysis (Biological Information)
 - Syntax Parsing, Distributed Representations (Natural Language Processing)
