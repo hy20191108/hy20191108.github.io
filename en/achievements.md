@@ -6,12 +6,13 @@ title: Achievements
 # Research Achievements
 
 ## Journal Articles
-- **<u>Haruhiko Yoshioka</u>** and Uwano Hidetake, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," *Networking and Parallel/Distributed Computing Systems*, Volume 18, pages 137–152, April 2024.
+- **<u>Haruhiko Yoshioka</u>** and Uwano Hidetake, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," Networking and Parallel/Distributed Computing Systems, Volume 18, pages 137–152, April 2024.
 
 ## International Conferences
-- **<u>Haruhiko Yoshioka</u>**, Sila Lertbanjongngam, Masayuki Inaba, Youmei Fan, Takashi Nakano, Kazumasa Shimari, Raula Gaikovina Kula, Kenichi Matsumoto, "Do Developers Depend on Deprecated Library Versions? A Mining Study of Log4j," *Mining Software Repositories (MSR) 2025 Mining Challenge*, pages XXX–XXX, 2025.
-- **<u>Haruhiko Yoshioka</u>** and Hidetake Uwano, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," in *26th IEEE/ACIS International Winter Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD2023-Winter)*, December 2023.
-- **<u>Haruhiko Yoshioka</u>** and Hidetake Uwano, "Automatic Mapping of Syntax Trees and Eye Movement for Semantic-Based Program Comprehension Pattern Extraction," in *International Symposium on Advances in Technology Education (ISATE) 2022*, pages 220–224, 2022.
+- **<u>Haruhiko Yoshioka</u>**, Kazumasa Shimari, Hidetake Uwano, Kenichi Matsumoto, "eye2vec: Learning Distributed Representations of Eye Movement for Program Comprehension Analysis," The 2025 ACM Symposium on Eye Tracking Research & Applications (ETRA2025) LBW, 2025. (採択済み)
+- **<u>Haruhiko Yoshioka</u>**, Sila Lertbanjongngam, Masayuki Inaba, Youmei Fan, Takashi Nakano, Kazumasa Shimari, Raula Gaikovina Kula, Kenichi Matsumoto, "Do Developers Depend on Deprecated Library Versions? A Mining Study of Log4j," Mining Software Repositories (MSR) 2025 Mining Challenge, pages XXX–XXX, 2025.
+- **<u>Haruhiko Yoshioka</u>** and Hidetake Uwano, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," in 26th IEEE/ACIS International Winter Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD2023-Winter), December 2023.
+- **<u>Haruhiko Yoshioka</u>** and Hidetake Uwano, "Automatic Mapping of Syntax Trees and Eye Movement for Semantic-Based Program Comprehension Pattern Extraction," in International Symposium on Advances in Technology Education (ISATE) 2022, pages 220–224, 2022.
 
 ## Domestic Conferences (Peer-Reviewed)
 - **<u>吉岡春彦</u>**, 上野秀剛, "プログラム理解パターン抽出のための構文木と視線移動の自動マッピング手法," ソフトウェア工学の基礎29, pages 34–42, 2022年.
