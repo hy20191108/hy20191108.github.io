@@ -37,20 +37,20 @@ For details, see [here](achievements.md)
 
 ## Education
 | Period   | Institution                                                                                                          |
-| -------- | -------------------------------------------------------------------------------------------------------------------- |
+| :------- | :------------------------------------------------------------------------------------------------------------------- |
 | 2024/04~ | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology |
 | 2022/04~ | Department of Advanced Information Engineering, National Institute of Technology, Nara College (Valedictorian)       |
 | 2017/04~ | Department of Information Engineering, National Institute of Technology, Nara College                                |
 
 ## Academic Activities
 | Period        | Role                            | Conference/Organization                                            |
-| ------------- | ------------------------------- | ------------------------------------------------------------------ |
+| :------------ | :------------------------------ | :----------------------------------------------------------------- |
 | 2025/05/26~29 | Student Volunteer               | [ETRA2025](https://etra.acm.org/2025/index.html)                   |
 | 2024/12       | Organizer/Young Researcher Team | [International Workshop WIREDS2024](https://wireds2024.github.io/) |
 
 ## University Activities
 | Period          | Activity                                                                                                                                                       |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2025/06~2025/09 | Research Assistant (Nara Institute of Science and Technology)                                                                                                  |
 | 2025/04~2025/09 | Teaching Assistant (Nara Institute of Science and Technology)                                                                                                  |
 | 2024/10~2025/03 | NAIST STELLA Program (JST Next Generation Science and Technology Challenge Program) Student Mentor                                                             |
