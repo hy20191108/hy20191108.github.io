@@ -36,6 +36,7 @@ I am researching methods to automatically interpret software developers' eye tra
 For details, see [here](achievements.md)
 
 ## Education
+
 | Period   | Institution                                                                                                          |
 | :------- | :------------------------------------------------------------------------------------------------------------------- |
 | 2024/04~ | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology |
@@ -43,12 +44,14 @@ For details, see [here](achievements.md)
 | 2017/04~ | Department of Information Engineering, National Institute of Technology, Nara College                                |
 
 ## Academic Activities
+
 | Period        | Role                            | Conference/Organization                                            |
 | :------------ | :------------------------------ | :----------------------------------------------------------------- |
 | 2025/05/26~29 | Student Volunteer               | [ETRA2025](https://etra.acm.org/2025/index.html)                   |
 | 2024/12       | Organizer/Young Researcher Team | [International Workshop WIREDS2024](https://wireds2024.github.io/) |
 
 ## University Activities
+
 | Period          | Activity                                                                                                                                                       |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2025/06~2025/09 | Research Assistant (Nara Institute of Science and Technology)                                                                                                  |
