@@ -14,6 +14,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Language and SEO meta tags -->
+  {% if page.url contains '/jp/' %}
+  <html lang="ja">
+  <meta name="language" content="Japanese">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/jp' | prepend: '/jp' }}">
+  <link rel="alternate" hreflang="ja" href="{{ site.url }}{{ page.url }}">
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url | replace: '/jp/', '/en/' }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
+  {% elsif page.url contains '/en/' %}
+  <html lang="en">
+  <meta name="language" content="English">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/en' | prepend: '/en' }}">
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}">
+  <link rel="alternate" hreflang="ja" href="{{ site.url }}{{ page.url | replace: '/en/', '/jp/' }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
+  {% else %}
+  <html lang="en">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="alternate" hreflang="en" href="{{ site.url }}/en/">
+  <link rel="alternate" hreflang="ja" href="{{ site.url }}/jp/">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
+  {% endif %}
+
   <title>
     {% if page.title == "Home" %}
     {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
@@ -27,6 +50,49 @@
     href="{{ '/assets/apple-touch-icon-precomposed.png' | relative_url }}">
   <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ 'atom.xml' | relative_url }}">
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Haruhiko Yoshioka",
+    "givenName": "Haruhiko",
+    "familyName": "Yoshioka",
+    "alternateName": "吉岡春彦",
+    "url": "{{ site.url }}",
+    "sameAs": [
+      "https://github.com/hy20191108",
+      "https://x.com/zero12345six",
+      "https://www.linkedin.com/in/haruhiko-yoshioka-6aa921358/"
+    ],
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Nara Institute of Science and Technology",
+      "alternateName": "奈良先端科学技術大学院大学"
+    },
+    "knowsAbout": [
+      "Software Engineering",
+      "Program Comprehension",
+      "Eye Tracking",
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing"
+    ],
+    "inLanguage": [
+      {
+        "@type": "Language",
+        "name": "Japanese",
+        "alternateName": "ja"
+      },
+      {
+        "@type": "Language", 
+        "name": "English",
+        "alternateName": "en"
+      }
+    ]
+  }
+  </script>
 
   {% seo title=false %}
 </head>

@@ -3,6 +3,10 @@ title: Haruhiko Yoshioka's Homepage
 show_downloads: true
 markdown: kramdown
 
+# Site settings for SEO
+url: "https://hy20191108.github.io"
+baseurl: ""
+
 # Gems
 plugins:
   - jekyll-coffeescript

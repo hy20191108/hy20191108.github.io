@@ -1,6 +1,10 @@
 ---
 layout: default
 title: 吉岡 春彦
+lang: ja
+redirect_from:
+  - /ja/
+  - /japanese/
 ---
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">

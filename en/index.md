@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Haruhiko Yoshioka
+lang: en
+redirect_from:
+  - /english/
 ---
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">

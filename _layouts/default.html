@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{% if page.lang %}{{ page.lang }}{% elsif page.url contains '/jp/' %}ja{% else %}en{% endif %}">
 
 {% include head.html %}
 

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: 業績
+title: 研究業績
+lang: ja
 ---
 
 # 研究業績

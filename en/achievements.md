@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Achievements
+title: Research Achievements
+lang: en
 ---
 
 # Research Achievements
