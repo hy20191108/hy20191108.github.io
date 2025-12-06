@@ -52,6 +52,8 @@ redirect_from:
 
 | 年度                | 役職             | 学会・会議名                                                  |
 | :------------------ | :--------------- | :------------------------------------------------------------ |
+| 2025年12月4日〜5日  | Organizing Committee | [GAIA/ECOワークショップ](https://naist-se.github.io/HP_Workshop_GAIA_ECO/) |
+| 2025年11月25日〜28日 | 学生ボランティア     | [AI-Driven Software Engineering Summit](https://posl.ait.kyushu-u.ac.jp/~aidriven2025/) |
 | 2025年5月26日～29日 | 学生ボランティア | [ETRA2025](https://etra.acm.org/2025/index.html)              |
 | 2024年12月          | 運営/若手チーム  | [国際ワークショップWIREDS2024](https://wireds2024.github.io/) |
 

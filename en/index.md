@@ -50,10 +50,12 @@ For details, see [here](achievements.md)
 
 ## Academic Activities
 
-| Period        | Role                            | Conference/Organization                                            |
-| :------------ | :------------------------------ | :----------------------------------------------------------------- |
-| 2025/05/26~29 | Student Volunteer               | [ETRA2025](https://etra.acm.org/2025/index.html)                   |
-| 2024/12       | Organizer/Young Researcher Team | [International Workshop WIREDS2024](https://wireds2024.github.io/) |
+| Period         | Role                            | Conference/Organization                                                                   |
+| :------------- | :------------------------------ | :---------------------------------------------------------------------------------------- |
+| 2025/12/04~05  | Organizing Committee            | [GAIA/ECO Workshop](https://naist-se.github.io/HP_Workshop_GAIA_ECO/)                     |
+| 2025/11/25~28  | Student Volunteer               | [AI-Driven Software Engineering Summit](https://posl.ait.kyushu-u.ac.jp/~aidriven2025/)   |
+| 2025/05/26~29  | Student Volunteer               | [ETRA2025](https://etra.acm.org/2025/index.html)                                          |
+| 2024/12        | Organizer/Young Researcher Team | [International Workshop WIREDS2024](https://wireds2024.github.io/)                        |
 
 ## University Activities
 
