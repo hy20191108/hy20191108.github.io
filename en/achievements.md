@@ -19,6 +19,8 @@ lang: en
 - **<u>吉岡春彦</u>**, 上野秀剛, "プログラム理解パターン抽出のための構文木と視線移動の自動マッピング手法," ソフトウェア工学の基礎29, pages 34–42, 2022年.
 
 ## Workshops and National Conferences, etc.
+- **<u>Haruhiko Yoshioka</u>**, Kazumasa Shimari, Hidetake Uwano, Kenichi Matsumoto, "From Eye Movements to Distributed Representations for Program Comprehension," AI-Driven Software Engineering Summit for Fostering Next-Generation Researchers, Poster, 2025.
+- **<u>吉岡春彦</u>**, 嶋利一真, 上野秀剛, 松本健一, "視線移動の分散表現に基づくプログラム理解時の特徴抽出," 情報処理学会研究報告, vol.2025-SE-220, no.7, pages 1–8, 2025年.
 - **<u>吉岡春彦</u>**, 上野秀剛, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," ソフトウェアエンジニアリングシンポジウム2023論文集, pages 183–190, 2023年.
 
 ## Awards and Recognitions
