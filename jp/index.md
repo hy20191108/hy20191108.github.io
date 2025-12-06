@@ -27,6 +27,7 @@ redirect_from:
 - **X:** [@zero12345six](https://x.com/zero12345six)
 - **LinkedIn:** [Haruhiko Yoshioka](https://www.linkedin.com/in/haruhiko-yoshioka-6aa921358/)
 - **Google Scholar:** [Haruhiko Yoshioka](https://scholar.google.com/citations?user=zMC-L3kAAAAJ&hl)
+- **ORCID:** [0009-0004-2353-1397](https://orcid.org/0009-0004-2353-1397)
 
 ## 研究テーマ・専門分野
 プログラム理解支援を目的として、ソフトウェア開発者の視線計測データを自然言語処理技術で自動的に解釈し、機械学習・深層学習による解析を可能とする手法を研究しています。
