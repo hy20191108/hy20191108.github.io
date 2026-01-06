@@ -16,7 +16,7 @@ redirect_from:
       Nara Institute of Science and Technology<br>
       Graduate School of Science and Technology<br>
       Information Science<br>
-      Software Engineering Laboratory, Master's 2nd Year
+      Software Engineering Laboratory, Ph.D. 1st Year
     </p>
   </div>
 </div>
@@ -42,9 +42,10 @@ For details, see [here](achievements.md)
 
 ## Education
 
-| Period   | Institution                                                                                                          |
-| :------- | :------------------------------------------------------------------------------------------------------------------- |
-| 2024/04~ | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology |
+| Period   | Institution                                                                                                                         |
+| :------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| 2025/10~ | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology (Ph.D. Program) |
+| 2024/04~ | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology (Master's Program) |
 | 2022/04~ | Department of Advanced Information Engineering, National Institute of Technology, Nara College (Valedictorian)       |
 | 2017/04~ | Department of Information Engineering, National Institute of Technology, Nara College                                |
 
