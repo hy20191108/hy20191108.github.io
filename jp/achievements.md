@@ -20,12 +20,12 @@ lang: ja
 ## 研究会・全国大会等
 - **<u>Haruhiko Yoshioka</u>**, Kazumasa Shimari, Hidetake Uwano, Kenichi Matsumoto, "From Eye Movements to Distributed Representations for Program Comprehension," AI-Driven Software Engineering Summit for Fostering Next-Generation Researchers, Poster, 2025年.
 - **<u>吉岡春彦</u>**, 嶋利一真, 上野秀剛, 松本健一, "視線移動の分散表現に基づくプログラム理解時の特徴抽出," 情報処理学会研究報告, vol.2025-SE-220, no.7, pages 1-8, 2025年.
-- **<u>吉岡春彦</u>**, 上野秀剛, "[構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析](https://cir.nii.ac.jp/crid/1050297194910845184)," ソフトウェアエンジニアリングシンポジウム2023論文集, pages 183-190, 2023年. [[LAB](https://pman.uwanolab.jp/pman3.cgi?D=222)]
+- **<u>吉岡春彦</u>**, 上野秀剛, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," ソフトウェアエンジニアリングシンポジウム2023論文集, pages 183-190, 2023年. [[NII](https://cir.nii.ac.jp/crid/1050297194910845184), [LAB](https://pman.uwanolab.jp/pman3.cgi?D=222)]
 
 ## 表彰・受賞
-- **<u>吉岡春彦</u>**, 上野秀剛, "[構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析](https://cir.nii.ac.jp/crid/1050297194910845184)," ソフトウェアエンジニアリングシンポジウム2023 研究奨励賞, 2023年.
+- **<u>吉岡春彦</u>**, 上野秀剛, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," ソフトウェアエンジニアリングシンポジウム2023 研究奨励賞, 2023年. [[NII](https://cir.nii.ac.jp/crid/1050297194910845184)]
 
 ## 学位論文・卒論・特別研究
-- **<u>Haruhiko Yoshioka</u>**, "[Learning Distributed Representations of Eye Movement to Analyze Program Comprehension Process](https://library.naist.jp/opac/book/115252)," 奈良先端科学技術大学院大学 修士論文, 2025年9月.
+- **<u>Haruhiko Yoshioka</u>**, "Learning Distributed Representations of Eye Movement to Analyze Program Comprehension Process," 奈良先端科学技術大学院大学 修士論文, 2025年9月. [[NAIST](https://library.naist.jp/opac/book/115252)]
 - **<u>吉岡春彦</u>**, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," 奈良工業高等専門学校 本科卒業論文, 2024年2月. [[LAB](https://pman.uwanolab.jp/pman3.cgi?D=225)]
 - **<u>吉岡春彦</u>**, "意味に基づいたプログラム理解パターン抽出のための構文木と視線移動の自動マッピング," 奈良工業高等専門学校 専攻科卒業論文, 2022年2月. [[LAB](https://pman.uwanolab.jp/pman3.cgi?D=202)]
