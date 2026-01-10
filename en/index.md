@@ -8,7 +8,7 @@ redirect_from:
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
-    <img src="{{ '/images/yoshioka.jpg' | relative_url }}" alt="Profile picture" style="width: 200px; max-width: 100%; height: auto;">
+    <img src="{{ '/images/yoshioka.jpg' | relative_url }}" alt="Profile picture" style="width: 200px; max-width: 100%; height: auto; margin-bottom: 0;">
   </div>
   <div style="flex: 1; word-break: keep-all;">
     <h1>Haruhiko Yoshioka (よしおか はるひこ)</h1>
