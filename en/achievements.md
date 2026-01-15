@@ -28,5 +28,5 @@ lang: en
 
 ## Theses, Undergraduate Theses, and Special Research
 - **<u>Haruhiko Yoshioka</u>**, "Learning Distributed Representations of Eye Movement to Analyze Program Comprehension Process," Master's Thesis, Nara Institute of Science and Technology, September 2025. [[NAIST](https://library.naist.jp/opac/book/115252)]
-- **<u>吉岡春彦</u>**, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," 奈良工業高等専門学校 本科卒業論文, 2024年2月. [[LAB](https://pman.uwanolab.jp/pman3.cgi?D=225)]
-- **<u>吉岡春彦</u>**, "意味に基づいたプログラム理解パターン抽出のための構文木と視線移動の自動マッピング," 奈良工業高等専門学校 専攻科卒業論文, 2022年2月. [[LAB](https://pman.uwanolab.jp/pman3.cgi?D=202)]
+- **<u>吉岡春彦</u>**, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," 奈良工業高等専門学校 専攻科特別研究, 2024年2月. [[LAB](https://pman.uwanolab.jp/pman3.cgi?D=225)]
+- **<u>吉岡春彦</u>**, "意味に基づいたプログラム理解パターン抽出のための構文木と視線移動の自動マッピング," 奈良工業高等専門学校 本科卒業研究, 2022年2月. [[LAB](https://pman.uwanolab.jp/pman3.cgi?D=202)]
