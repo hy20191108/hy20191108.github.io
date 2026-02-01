@@ -2,6 +2,8 @@
 layout: default
 title: 研究業績
 lang: ja
+redirect_from:
+  - /jp/achievements.md
 ---
 
 # 研究業績
