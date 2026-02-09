@@ -7,7 +7,7 @@ lang: en
 # Research Achievements
 
 ## Journal Articles
-- **<u>Haruhiko Yoshioka</u>** and Uwano Hidetake, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," Networking and Parallel/Distributed Computing Systems, Volume 18, pages 137–152, April 2024. (Peer-reviewed) [[Springer](https://link.springer.com/chapter/10.1007/978-3-031-53274-0_10), [LAB](https://pman.uwanolab.jp/pman3.cgi?D=231)]
+- **<u>Haruhiko Yoshioka</u>** and Uwano Hidetake, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," Networking and Parallel/Distributed Computing Systems, Studies in Computational Intelligence, vol. 1125, pages 137–152, April 2024. (Peer-reviewed) [[Springer](https://link.springer.com/chapter/10.1007/978-3-031-53274-0_10), [LAB](https://pman.uwanolab.jp/pman3.cgi?D=231)]
 
 ## International Conferences
 - **<u>Haruhiko Yoshioka</u>**, Takahiro Monno, Haruka Tokumasu, Taiki Wakamatsu, Yuki Ota, Nimmi Weeraddana, Kenichi Matsumoto, "Let's Make Every Pull Request Meaningful: An Empirical Analysis of Developer and Agentic Pull Requests," Mining Software Repositories (MSR) 2026 Mining Challenge, Rio de Janeiro, Brazil, April 13-14, 2026. [[arXiv](https://arxiv.org/abs/2601.18749)]
