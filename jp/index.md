@@ -84,5 +84,5 @@ redirect_from:
 - [令和5年度修了生 専攻科研究優秀賞](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
 
 ### フェローシップ
-- NAIST Granite Program（JST次世代研究者挑戦的研究プログラム JPMJSP2140）採択（2025年10月〜）
+- NAIST Granite Program（JST次世代研究者挑戦的研究プログラム）採択（2025年10月〜）
   - [インタビュー記事](https://naist-granite.jp/interview/25-72/)
