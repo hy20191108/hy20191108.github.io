@@ -82,3 +82,7 @@ For details, see [here](achievements.md)
 
 ### Other Awards
 - [2023 Academic Excellence Award for Graduates, National Institute of Technology, Nara College](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
+
+### Fellowship
+- NAIST Granite Program (JST SPRING: Support for Pioneering Research Initiated by the Next Generation) (2025/10~)
+  - [Interview Article](https://naist-granite.jp/interview/25-72/)
