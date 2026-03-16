@@ -62,7 +62,7 @@ For details, see [here](achievements.md)
 
 | Period          | Activity                                                                                                                                                       |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026/03/02~03/20 | Short-term Study Abroad in Calgary, Canada                                                                                                                    |
+| 2026/03/02~03/20 | Short-term Research Stay at the University of Calgary, Canada                                                                                                 |
 | 2025/06~2025/09 | Research Assistant (Nara Institute of Science and Technology)                                                                                                  |
 | 2025/04~2025/09 | Teaching Assistant (Nara Institute of Science and Technology)                                                                                                  |
 | 2024/10~2025/03 | NAIST STELLA Program (JST Next Generation Science and Technology Challenge Program) Student Mentor                                                             |
