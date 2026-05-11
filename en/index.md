@@ -55,6 +55,7 @@ I am researching methods to automatically interpret software developers' eye tra
 - **<u>吉岡春彦</u>**, 上野秀剛, "プログラム理解パターン抽出のための構文木と視線移動の自動マッピング手法," ソフトウェア工学の基礎29, pages 34–42, 2022年11月. (Oral, Peer-reviewed) [[DOI](https://doi.org/10.11309/fose.29.0_34), [LAB](https://pman.uwanolab.jp/pman3.cgi?D=208)]
 
 ### Workshops and National Conferences, etc. (Non-peer-reviewed)
+- **<u>Kyogo Horikawa</u>**, **<u>Hidetake Uwano</u>**, **<u>Haruhiko Yoshioka</u>**, "Identifying Effective Program Comprehension Strategies through Gaze Transitions over Syntactic Elements," The Fourteenth International Workshop on Eye Movements in Programming (EMIP 2026), Marrakech, Morocco, June 1, 2026.
 - **<u>Haruhiko Yoshioka</u>**, Kazumasa Shimari, Hidetake Uwano, Kenichi Matsumoto, "From Eye Movements to Distributed Representations for Program Comprehension," AI-Driven Software Engineering Summit for Fostering Next-Generation Researchers, Poster, Todaiji, Nara, Japan, 25 November 2025. [[Web](https://posl.ait.kyushu-u.ac.jp/~aidriven2025/)]
 - **<u>吉岡春彦</u>**, 嶋利一真, 上野秀剛, 松本健一, "視線移動の分散表現に基づくプログラム理解時の特徴抽出," 情報処理学会研究報告, vol.2025-SE-220, no.7, pages 1–8, 札幌，北海道, 2025年7月15日.
 - **<u>吉岡春彦</u>**, 上野秀剛, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," ソフトウェアエンジニアリングシンポジウム2023論文集, pages 183–190, 2023年8月. (Oral, Non-peer-reviewed) [[NII](https://cir.nii.ac.jp/crid/1050297194910845184), [LAB](https://pman.uwanolab.jp/pman3.cgi?D=222)]
