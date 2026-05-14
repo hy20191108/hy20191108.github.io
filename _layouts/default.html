@@ -6,13 +6,13 @@
 <body>
   <div class="container content">
     <header class="masthead">
-      <div class="masthead-inner">
-        <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-          <small>{{ site.tagline }}</small>
-        </h3>
-        {% include navi.html %}
-      </div>
+      <h3 class="masthead-title">
+        <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+        <small>{{ site.tagline }}</small>
+      </h3>
+
+      <!-- ナビゲーションを読み込む -->
+      {% include navi.html %}
     </header>
 
     <main>

@@ -8,12 +8,6 @@
   margin-bottom: var(--spacer-3);
 }
 
-.masthead-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .masthead-title {
   margin-bottom: 0;
 
@@ -25,26 +19,5 @@
   small {
     font-weight: 400;
     opacity: .5;
-  }
-}
-
-.lang-nav {
-  flex-shrink: 0;
-}
-
-.lang-switch {
-  display: inline-block;
-  padding: .25em .7em;
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius);
-  font-size: .85rem;
-  color: var(--body-color);
-  text-decoration: none;
-  white-space: nowrap;
-
-  &:hover {
-    background-color: var(--gray-100);
-    color: var(--body-color);
-    text-decoration: none;
   }
 }
