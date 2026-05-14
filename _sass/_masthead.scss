@@ -8,6 +8,17 @@
   margin-bottom: var(--spacer-3);
 }
 
+.masthead-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lang-nav {
+  flex-shrink: 0;
+  margin-left: var(--spacer);
+}
+
 .masthead-title {
   margin-bottom: 0;
 

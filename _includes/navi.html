@@ -1,7 +1,7 @@
-<nav>
+<nav class="lang-nav" aria-label="Change language">
   {% if page.url contains '/en/' %}
-  <a href="/">日本語</a>
+  <a href="/" hreflang="ja" lang="ja">日本語</a>
   {% else %}
-  <a href="/en/">English</a>
+  <a href="/en/" hreflang="en" lang="en">English</a>
   {% endif %}
 </nav>
