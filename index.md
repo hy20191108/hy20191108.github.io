@@ -3,7 +3,6 @@ layout: default
 title: 吉岡 春彦
 lang: ja
 redirect_from:
-  - /jp/
   - /ja/
   - /japanese/
 ---
