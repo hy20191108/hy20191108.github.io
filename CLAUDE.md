@@ -1,5 +1,12 @@
 # Project Notes
 
+## Jekyll / GitHub Pages 開発ルール
+
+- `jekyll-redirect-from` 競合: `redirect_from: /jp/` と `jp/index.md` の `redirect_to: /` は同一ファイルを生成して衝突する。どちらか一方に統一する
+- `jekyll-seo-tag` との canonical 競合: 手書き hreflang/canonical を使う場合は `{% seo canonical=false %}` を必ず付ける
+- GitHub Actions は master push のみトリガー。PR ブランチでは `pages-build-deployment` は走らない
+- 言語スイッチャー: `<nav aria-label="Change language">` + リンクに `lang=` と `hreflang=` をセットで付ける
+
 ## 業績情報の参照先
 
 不足情報補完用のリソース一覧：
