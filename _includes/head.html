@@ -14,26 +14,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Language and SEO meta tags -->
-  {% if page.url contains '/jp/' %}
-  <html lang="ja">
-  <meta name="language" content="Japanese">
-  <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/jp' | prepend: '/jp' }}">
-  <link rel="alternate" hreflang="ja" href="{{ site.url }}{{ page.url }}">
-  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url | replace: '/jp/', '/en/' }}">
-  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
-  {% elsif page.url contains '/en/' %}
-  <html lang="en">
-  <meta name="language" content="English">
-  <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/en' | prepend: '/en' }}">
+  {% if page.url contains '/en/' %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}">
-  <link rel="alternate" hreflang="ja" href="{{ site.url }}{{ page.url | replace: '/en/', '/jp/' }}">
+  <link rel="alternate" hreflang="ja" href="{{ site.url }}/">
   <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
   {% else %}
-  <html lang="en">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="alternate" hreflang="ja" href="{{ site.url }}/">
   <link rel="alternate" hreflang="en" href="{{ site.url }}/en/">
-  <link rel="alternate" hreflang="ja" href="{{ site.url }}/jp/">
   <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
   {% endif %}
 
@@ -86,7 +75,7 @@
         "alternateName": "ja"
       },
       {
-        "@type": "Language", 
+        "@type": "Language",
         "name": "English",
         "alternateName": "en"
       }
@@ -94,5 +83,5 @@
   }
   </script>
 
-  {% seo title=false %}
+  {% seo title=false canonical=false %}
 </head>

@@ -1,3 +1,7 @@
 <nav>
-    Language: (<a href="/en/">English</a> | <a href="/jp/">日本語</a>)
+  {% if page.url contains '/en/' %}
+  <a href="/">日本語</a>
+  {% else %}
+  <a href="/en/">English</a>
+  {% endif %}
 </nav>
