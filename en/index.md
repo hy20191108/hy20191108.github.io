@@ -21,6 +21,14 @@ redirect_from:
   </div>
 </div>
 
+## Research Topics & Expertise
+I am researching methods to automatically interpret software developers' eye tracking data using natural language processing techniques, enabling analysis through machine learning and deep learning, with the aim of supporting program comprehension.
+
+**Expertise**
+- Program Comprehension, Programming Education (Software Engineering)
+- Eye Movement Analysis (Biological Information)
+- Syntax Parsing, Distributed Representations, Deep Learning, Machine Learning (Natural Language Processing, Artificial Intelligence)
+
 ## Contact
 - **E-mail:** `yoshioka.haruhiko.yi4[at]naist.ac.jp`
 - **GitHub:** [hy20191108](https://github.com/hy20191108)
@@ -29,14 +37,6 @@ redirect_from:
 - **Google Scholar:** [Haruhiko Yoshioka](https://scholar.google.com/citations?user=zMC-L3kAAAAJ&hl)
 - **ORCID:** [0009-0004-2353-1397](https://orcid.org/0009-0004-2353-1397)
 - **researchmap:** [HaruhikoYoshioka](https://researchmap.jp/HaruhikoYoshioka)
-
-## Research Topics & Expertise
-I am researching methods to automatically interpret software developers' eye tracking data using natural language processing techniques, enabling analysis through machine learning and deep learning, with the aim of supporting program comprehension.
-
-**Expertise**
-- Program Comprehension, Programming Education (Software Engineering)
-- Eye Movement Analysis (Biological Information)
-- Syntax Parsing, Distributed Representations, Deep Learning, Machine Learning (Natural Language Processing, Artificial Intelligence)
 
 ## Research Achievements
 
