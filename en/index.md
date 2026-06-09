@@ -15,8 +15,9 @@ redirect_from:
     <p>
       Nara Institute of Science and Technology<br>
       Graduate School of Science and Technology<br>
-      Information Science<br>
-      Software Engineering Laboratory, Ph.D. 1st Year
+      Department of Science and Technology<br>
+      Division of Information Science<br>
+      Software Engineering Laboratory, 1st Year Doctoral Course
     </p>
   </div>
 </div>
@@ -72,8 +73,8 @@ I am researching methods to automatically interpret software developers' eye tra
 
 | Period   | Institution                                                                                                                         |
 | :------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| 2025/10~ | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology (Ph.D. Program) |
-| 2024/04~ | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology (Master's Program) |
+| 2025/10~ | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology (Doctoral Course) |
+| 2024/04~ | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology (Master's Course) |
 | 2022/04~ | Department of Advanced Information Engineering, National Institute of Technology, Nara College (Valedictorian)       |
 | 2017/04~ | Department of Information Engineering, National Institute of Technology, Nara College                                |
 
