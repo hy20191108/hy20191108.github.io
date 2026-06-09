@@ -15,8 +15,9 @@ redirect_from:
     <p>
       Nara Institute of Science and Technology<br>
       Graduate School of Science and Technology<br>
-      Information Science<br>
-      Software Engineering Laboratory, Ph.D. 1st Year
+      Division of Advanced Science and Technology<br>
+      Division of Information Science<br>
+      Software Engineering Laboratory, 1st Year Doctoral Program
     </p>
   </div>
 </div>
