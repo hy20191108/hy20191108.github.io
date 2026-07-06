@@ -113,6 +113,11 @@ redirect_from:
 ### その他の受賞
 - [令和5年度修了生 専攻科研究優秀賞](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
 
+### 研究助成
+| 期間 | 名称 | 備考 |
+| :--- | :--- | :--- |
+| 2026年7月～2027年3月 | 2026年度キオクシア奨励研究 | 採択 |
+
 ### フェローシップ
 - NAIST Granite Program（JST次世代研究者挑戦的研究プログラム）採択（2025年10月〜）
   - [インタビュー記事](https://naist-granite.jp/interview/25-72/)

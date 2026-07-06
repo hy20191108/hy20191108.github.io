@@ -113,6 +113,11 @@ I am researching methods to automatically interpret software developers' eye tra
 ### Other Awards
 - [2023 Academic Excellence Award for Graduates, National Institute of Technology, Nara College](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
 
+### Research Grants
+| Period | Program | Note |
+| :--- | :--- | :--- |
+| July 2026-March 2027 | FY2026 KIOXIA Encouragement Research Program | Selected |
+
 ### Fellowship
 - NAIST Granite Program (JST SPRING: Support for Pioneering Research Initiated by the Next Generation) (2025/10~)
   - [Interview Article](https://naist-granite.jp/interview/25-72/)
