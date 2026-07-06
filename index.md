@@ -45,7 +45,7 @@ redirect_from:
 - **<u>Haruhiko Yoshioka</u>** and Hidetake Uwano, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," Networking and Parallel/Distributed Computing Systems, Studies in Computational Intelligence, vol. 1125, pages 137-152, April 2024. （査読有）[[Springer](https://link.springer.com/chapter/10.1007/978-3-031-53274-0_10), [LAB](https://pman.uwanolab.jp/pman3.cgi?D=231)]
 
 ### 国際会議
-- **<u>Kyogo Horikawa</u>**, **<u>Hidetake Uwano</u>**, **<u>Haruhiko Yoshioka</u>**, "Identifying Effective Program Comprehension Strategies through Gaze Transitions over Syntactic Elements," The Fourteenth International Workshop on Eye Movements in Programming (EMIP 2026), Marrakech, Morocco, June 1, 2026. （オーラル，査読有，採択済み）
+- **<u>Kyogo Horikawa</u>**, **<u>Hidetake Uwano</u>**, **<u>Haruhiko Yoshioka</u>**, "Identifying Effective Program Comprehension Strategies through Gaze Transitions over Syntactic Elements," The Fourteenth International Workshop on Eye Movements in Programming (EMIP 2026), Marrakech, Morocco, June 1, 2026. （オーラル，査読有）[[ACM](https://doi.org/10.1145/3797246.3806012), [arXiv](https://arxiv.org/abs/2607.01042)]
 - **<u>Haruhiko Yoshioka</u>**, Takahiro Monno, Haruka Tokumasu, Taiki Wakamatsu, Yuki Ota, Nimmi Weeraddana, Kenichi Matsumoto, "Let's Make Every Pull Request Meaningful: An Empirical Analysis of Developer and Agentic Pull Requests," Mining Software Repositories (MSR) 2026 Mining Challenge, Rio de Janeiro, Brazil, April 13-14, 2026. [[arXiv](https://arxiv.org/abs/2601.18749)]
 - **<u>Haruhiko Yoshioka</u>**, Kazumasa Shimari, Hidetake Uwano, Kenichi Matsumoto, "eye2vec: Learning Distributed Representations of Eye Movement for Program Comprehension Analysis," The 2025 ACM Symposium on Eye Tracking Research & Applications (ETRA2025) LBW, no.51, Tokyo, Japan, 28 May 2025. （ポスター，査読有）[[ACM](https://doi.org/10.1145/3715669.3726801), [arXiv](https://arxiv.org/abs/2510.11722), [LAB](https://pman.uwanolab.jp/pman3.cgi?D=250)]
 - **<u>Haruhiko Yoshioka</u>**, Sila Lertbanjongngam, Masayuki Inaba, Youmei Fan, Takashi Nakano, Kazumasa Shimari, Raula Gaikovina Kula, Kenichi Matsumoto, "Do Developers Depend on Deprecated Library Versions? A Mining Study of Log4j," Mining Software Repositories (MSR) 2025 Mining Challenge, Ottawa, Canada, pages 314-318, April 2025. （オーラル，査読有）[[IEEE](https://ieeexplore.ieee.org/document/11025729/), [arXiv](https://arxiv.org/abs/2504.03167)]
@@ -114,6 +114,7 @@ redirect_from:
 - [令和5年度修了生 専攻科研究優秀賞](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
 
 ### 研究助成
+
 | 期間 | 名称 | 備考 |
 | :--- | :--- | :--- |
 | 2026年7月～2027年3月 | 2026年度キオクシア奨励研究 | 採択 |
