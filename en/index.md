@@ -91,6 +91,7 @@ I am researching methods to automatically interpret software developers' eye tra
 
 | Period          | Activity                                                                                                                                                       |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026/08/02~08/30 | Short-term Research Stay at the University of Calgary, Canada                                                                                                 |
 | 2026/03/02~03/20 | Short-term Research Stay at the University of Calgary, Canada                                                                                                 |
 | 2025/06~2025/09 | Research Assistant (Nara Institute of Science and Technology)                                                                                                  |
 | 2025/04~2025/09 | Teaching Assistant (Nara Institute of Science and Technology)                                                                                                  |
