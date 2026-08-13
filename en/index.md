@@ -33,7 +33,7 @@ I am researching methods to automatically interpret software developers' eye tra
 ## Contact
 - **E-mail:** `yoshioka.haruhiko.yi4[at]naist.ac.jp`
 - **GitHub:** [hy20191108](https://github.com/hy20191108)
-- **X:** [@zero12345six](https://x.com/zero12345six)
+- **X:** [@hy20191108](https://x.com/hy20191108)
 - **LinkedIn:** [Haruhiko Yoshioka](https://www.linkedin.com/in/haruhiko-yoshioka-6aa921358/)
 - **Google Scholar:** [Haruhiko Yoshioka](https://scholar.google.com/citations?user=zMC-L3kAAAAJ&hl)
 - **ORCID:** [0009-0004-2353-1397](https://orcid.org/0009-0004-2353-1397)
