@@ -1,13 +1,17 @@
 {% assign profile = site.data.profile.locales[page.lang] %}
+{% assign organization = site.data.profile.organization.locales[page.lang] %}
 <div class="profile-header">
   <div class="profile-header__image">
-    <img src="{{ '/images/yoshioka.jpg' | relative_url }}" alt="{{ profile.image_alt }}">
+    <img src="{{ '/images/yoshioka.jpg' | relative_url }}" alt="{{ profile.image_alt | escape }}">
   </div>
   <div class="profile-header__details">
-    <h1>{{ profile.heading }}</h1>
+    <h1>{{ profile.heading | escape }}</h1>
     <p>
-      {% for line in profile.affiliation %}{{ line }}{% unless forloop.last %}<br>
-      {% endunless %}{% endfor %}
+      {{ organization | escape }}<br>
+      {% for line in profile.affiliation %}
+      {{ line | escape }}{% unless forloop.last %}<br>
+      {% endunless %}
+      {% endfor %}
     </p>
   </div>
 </div>

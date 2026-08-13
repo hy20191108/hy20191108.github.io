@@ -41,6 +41,7 @@
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ 'atom.xml' | relative_url }}">
 
   <!-- Structured Data for SEO -->
+  {% assign same_as_links = site.data.profile.links | where: "same_as", true %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -50,13 +51,14 @@
     "familyName": {{ site.data.profile.family_name | jsonify }},
     "alternateName": {{ site.data.profile.alternate_name | jsonify }},
     "url": "{{ site.url }}",
-    "sameAs": [{% assign same_as_links = site.data.profile.links | where: "same_as", true %}{% for link in same_as_links %}
-      {{ link.url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}
+    "sameAs": [{% for link in same_as_links %}
+      {{ link.url | jsonify }}{% unless forloop.last %},{% endunless %}
+      {% endfor %}
     ],
     "affiliation": {
       "@type": "Organization",
-      "name": "Nara Institute of Science and Technology",
-      "alternateName": "奈良先端科学技術大学院大学"
+      "name": {{ site.data.profile.organization.name | jsonify }},
+      "alternateName": {{ site.data.profile.organization.alternate_name | jsonify }}
     },
     "knowsAbout": [
       "Software Engineering",

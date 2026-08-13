@@ -3,6 +3,12 @@ given_name: Haruhiko
 family_name: Yoshioka
 alternate_name: 吉岡春彦
 email: yoshioka.haruhiko.yi4[at]naist.ac.jp
+organization:
+  name: Nara Institute of Science and Technology
+  alternate_name: 奈良先端科学技術大学院大学
+  locales:
+    ja: 奈良先端科学技術大学院大学
+    en: Nara Institute of Science and Technology
 links:
   - label: GitHub
     text: hy20191108
@@ -30,7 +36,6 @@ locales:
     image_alt: 吉岡春彦の画像
     heading: 吉岡 春彦 (よしおか はるひこ)
     affiliation:
-      - 奈良先端科学技術大学院大学
       - 先端科学技術研究科 先端科学技術専攻
       - 情報科学領域 ソフトウェア工学研究室
       - 博士後期課程1年
@@ -38,7 +43,6 @@ locales:
     image_alt: Profile picture
     heading: Haruhiko Yoshioka (よしおか はるひこ)
     affiliation:
-      - Nara Institute of Science and Technology
       - Graduate School of Science and Technology
       - Department of Science and Technology
       - Division of Information Science
