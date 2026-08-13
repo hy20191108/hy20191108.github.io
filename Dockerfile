@@ -1,8 +1,5 @@
 FROM jekyll/jekyll:pages
 
-# Install Poole dependencies
-RUN gem install jekyll jekyll-gist jekyll-sitemap jekyll-seo-tag
-
 # Docker side
 ENV PROJECT_ROOTDIR=/srv/jekyll
 WORKDIR /srv/jekyll
