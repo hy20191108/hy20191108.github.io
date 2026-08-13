@@ -32,6 +32,7 @@ exclude:
   - Gemfile.lock
   - LICENSE.md
   - CLAUDE.md
+  - vendor
 
 sass:
   sass_dir: _sass
