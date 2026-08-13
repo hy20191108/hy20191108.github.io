@@ -1,0 +1,21 @@
+.profile-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile-header__image {
+  flex: 0 0 auto;
+  margin-right: 20px;
+
+  img {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.profile-header__details {
+  flex: 1;
+  word-break: keep-all;
+}

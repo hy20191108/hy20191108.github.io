@@ -6,21 +6,7 @@ redirect_from:
   - /english/
 ---
 
-<div style="display: flex; align-items: center; flex-wrap: wrap;">
-  <div style="flex: 0 0 auto; margin-right: 20px;">
-    <img src="{{ '/images/yoshioka.jpg' | relative_url }}" alt="Profile picture" style="width: 200px; max-width: 100%; height: auto;">
-  </div>
-  <div style="flex: 1; word-break: keep-all;">
-    <h1>Haruhiko Yoshioka (よしおか はるひこ)</h1>
-    <p>
-      Nara Institute of Science and Technology<br>
-      Graduate School of Science and Technology<br>
-      Department of Science and Technology<br>
-      Division of Information Science<br>
-      Software Engineering Laboratory, 1st Year Doctoral Course
-    </p>
-  </div>
-</div>
+{% include profile-header.html %}
 
 ## Research Topics & Expertise
 I am researching methods to automatically interpret software developers' eye tracking data using natural language processing techniques, enabling analysis through machine learning and deep learning, with the aim of supporting program comprehension.
@@ -31,13 +17,7 @@ I am researching methods to automatically interpret software developers' eye tra
 - Syntax Parsing, Distributed Representations, Deep Learning, Machine Learning (Natural Language Processing, Artificial Intelligence)
 
 ## Contact
-- **E-mail:** `yoshioka.haruhiko.yi4[at]naist.ac.jp`
-- **GitHub:** [hy20191108](https://github.com/hy20191108)
-- **X:** [@hy20191108](https://x.com/hy20191108)
-- **LinkedIn:** [Haruhiko Yoshioka](https://www.linkedin.com/in/haruhiko-yoshioka-6aa921358/)
-- **Google Scholar:** [Haruhiko Yoshioka](https://scholar.google.com/citations?user=zMC-L3kAAAAJ&hl)
-- **ORCID:** [0009-0004-2353-1397](https://orcid.org/0009-0004-2353-1397)
-- **researchmap:** [HaruhikoYoshioka](https://researchmap.jp/HaruhikoYoshioka)
+{% include contact-list.html %}
 
 ## Research Achievements
 

@@ -7,20 +7,7 @@ redirect_from:
   - /japanese/
 ---
 
-<div style="display: flex; align-items: center; flex-wrap: wrap;">
-  <div style="flex: 0 0 auto; margin-right: 20px;">
-    <img src="{{ '/images/yoshioka.jpg' | relative_url }}" alt="吉岡春彦の画像" style="width: 200px; max-width: 100%; height: auto;">
-  </div>
-  <div style="flex: 1; word-break: keep-all;">
-    <h1>吉岡 春彦 (よしおか はるひこ)</h1>
-    <p>
-      奈良先端科学技術大学院大学<br>
-      先端科学技術研究科 先端科学技術専攻<br>
-      情報科学領域 ソフトウェア工学研究室<br>
-      博士後期課程1年
-    </p>
-  </div>
-</div>
+{% include profile-header.html %}
 
 ## 研究テーマ・専門分野
 プログラム理解支援を目的として、ソフトウェア開発者の視線計測データを自然言語処理技術で自動的に解釈し、機械学習・深層学習による解析を可能とする手法を研究しています。
@@ -31,13 +18,7 @@ redirect_from:
 - 深層学習，機械学習，自然言語処理（人工知能）
 
 ## 連絡先
-- **E-mail:** `yoshioka.haruhiko.yi4[at]naist.ac.jp`
-- **GitHub:** [hy20191108](https://github.com/hy20191108)
-- **X:** [@hy20191108](https://x.com/hy20191108)
-- **LinkedIn:** [Haruhiko Yoshioka](https://www.linkedin.com/in/haruhiko-yoshioka-6aa921358/)
-- **Google Scholar:** [Haruhiko Yoshioka](https://scholar.google.com/citations?user=zMC-L3kAAAAJ&hl)
-- **ORCID:** [0009-0004-2353-1397](https://orcid.org/0009-0004-2353-1397)
-- **researchmap:** [HaruhikoYoshioka](https://researchmap.jp/HaruhikoYoshioka)
+{% include contact-list.html %}
 
 ## 研究業績
 
