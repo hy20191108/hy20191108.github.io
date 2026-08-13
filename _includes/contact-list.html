@@ -1,0 +1,6 @@
+<ul>
+  <li><strong>E-mail:</strong> <code class="language-plaintext highlighter-rouge">{{ site.data.profile.email }}</code></li>
+  {% for link in site.data.profile.links %}
+  <li><strong>{{ link.label }}:</strong> <a href="{{ link.url }}">{{ link.text }}</a></li>
+  {% endfor %}
+</ul>
