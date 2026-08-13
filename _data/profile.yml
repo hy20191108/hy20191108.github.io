@@ -1,0 +1,45 @@
+name: Haruhiko Yoshioka
+given_name: Haruhiko
+family_name: Yoshioka
+alternate_name: 吉岡春彦
+email: yoshioka.haruhiko.yi4[at]naist.ac.jp
+links:
+  - label: GitHub
+    text: hy20191108
+    url: https://github.com/hy20191108
+    same_as: true
+  - label: X
+    text: "@hy20191108"
+    url: https://x.com/hy20191108
+    same_as: true
+  - label: LinkedIn
+    text: Haruhiko Yoshioka
+    url: https://www.linkedin.com/in/haruhiko-yoshioka-6aa921358/
+    same_as: true
+  - label: Google Scholar
+    text: Haruhiko Yoshioka
+    url: https://scholar.google.com/citations?user=zMC-L3kAAAAJ&hl
+  - label: ORCID
+    text: 0009-0004-2353-1397
+    url: https://orcid.org/0009-0004-2353-1397
+  - label: researchmap
+    text: HaruhikoYoshioka
+    url: https://researchmap.jp/HaruhikoYoshioka
+locales:
+  ja:
+    image_alt: 吉岡春彦の画像
+    heading: 吉岡 春彦 (よしおか はるひこ)
+    affiliation:
+      - 奈良先端科学技術大学院大学
+      - 先端科学技術研究科 先端科学技術専攻
+      - 情報科学領域 ソフトウェア工学研究室
+      - 博士後期課程1年
+  en:
+    image_alt: Profile picture
+    heading: Haruhiko Yoshioka (よしおか はるひこ)
+    affiliation:
+      - Nara Institute of Science and Technology
+      - Graduate School of Science and Technology
+      - Department of Science and Technology
+      - Division of Information Science
+      - Software Engineering Laboratory, 1st Year Doctoral Course
