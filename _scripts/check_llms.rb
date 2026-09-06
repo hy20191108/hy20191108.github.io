@@ -39,6 +39,7 @@ class PublishedSiteTest < Minitest::Test
       page = html(html_path)
       assert_equal [url("llms.txt")], page.css('head link[rel="describedby"]').map { |link| link["href"] }
       assert_equal [url(markdown_path)], page.css('head link[rel="alternate"][type="text/markdown"]').map { |link| link["href"] }
+      refute page.at_css('link[rel="alternate"][type="application/atom+xml"]'), "#{html_path}: legacy demo feed must be absent"
     end
   end
 
@@ -63,8 +64,23 @@ class PublishedSiteTest < Minitest::Test
     end
   end
 
+  def test_legacy_demo_outputs_are_not_published
+    %w[
+      about.html
+      archive.html
+      atom.xml
+      default.html
+      2020/03/01/whats-jekyll.html
+      2020/04/02/example-content.html
+      2020/04/03-options.html
+      2020/04/04/introduction.html
+    ].each do |path|
+      refute File.exist?(File.join(@site_dir, path)), "#{path} must not be published"
+    end
+  end
+
   def test_development_files_are_not_published
-    %w[README.md README.html Gemfile Gemfile.lock package.json package-lock.json node_modules _scripts Dockerfile docker-compose.yml poole-for-jekyll.gemspec].each do |path|
+    %w[README.md README.html Gemfile Gemfile.lock package.json package-lock.json node_modules _scripts].each do |path|
       refute File.exist?(File.join(@site_dir, path)), "Development file was published: #{path}"
     end
   end
