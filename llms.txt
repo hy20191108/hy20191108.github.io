@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+
+# {{ site.data.profile.name }} ({{ site.data.profile.alternate_name }})
+
+> Personal academic website of {{ site.data.profile.name }} at {{ site.data.profile.organization.name }}, covering research, publications, education, and activities.
+
+The profiles below are Markdown versions of the Japanese and English homepages, generated from the same content as their HTML counterparts.
+
+## Profiles
+
+- [Japanese profile]({{ '/index.md' | absolute_url }}): Research interests, publications, education, activities, awards, grants, and contact information in Japanese.
+- [English profile]({{ '/en/index.md' | absolute_url }}): Research interests, publications, education, activities, awards, grants, and contact information in English.

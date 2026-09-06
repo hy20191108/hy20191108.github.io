@@ -1,28 +1,28 @@
-name-template: 'v$NEXT_MINOR_VERSION'
-tag-template: 'v$NEXT_MINOR_VERSION'
+name-template: "v$NEXT_MINOR_VERSION"
+tag-template: "v$NEXT_MINOR_VERSION"
 prerelease: true
 exclude-labels:
-  - 'skip-changelog'
+  - "skip-changelog"
 categories:
-  - title: '🚀 Features'
+  - title: "🚀 Features"
     labels:
-      - 'new-feature'
-      - 'feature'
-      - 'enhancement'
-  - title: '🐛 Bug fixes'
+      - "new-feature"
+      - "feature"
+      - "enhancement"
+  - title: "🐛 Bug fixes"
     labels:
-      - 'fix'
-      - 'bugfix'
-      - 'bug'
-  - title: '📖 Docs'
+      - "fix"
+      - "bugfix"
+      - "bug"
+  - title: "📖 Docs"
     labels:
-      - 'docs'
-  - title: '📦 Dependencies'
+      - "docs"
+  - title: "📦 Dependencies"
     labels:
-      - 'dependencies'
-  - title: '🧰 Maintenance'
-    label: 'chore'
-change-template: '- #$NUMBER: $TITLE'
+      - "dependencies"
+  - title: "🧰 Maintenance"
+    label: "chore"
+change-template: "- #$NUMBER: $TITLE"
 template: |
   ## Changes
 

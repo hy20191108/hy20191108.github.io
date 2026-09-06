@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Archive
+# The body supplies the visible title.
 ---
 
 # Archive

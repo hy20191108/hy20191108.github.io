@@ -1,0 +1,9 @@
+---
+layout: null
+lang: en
+output_format: markdown
+permalink: /en/index.md
+sitemap: false
+---
+
+{% capture profile_markdown %}{% include profile-en.md %}{% endcapture %}{{ profile_markdown | remove: "<u>" | remove: "</u>" | strip }}

@@ -1,0 +1,20 @@
+{
+  "extends": ["html-validate:recommended"],
+  "rules": {
+    "doctype-style": "off",
+    "void-style": "off",
+    "no-trailing-whitespace": "off",
+    "valid-id": [
+      "error",
+      {
+        "relaxed": true
+      }
+    ],
+    "no-inline-style": [
+      "error",
+      {
+        "allowedProperties": ["text-align", "background-color"]
+      }
+    ]
+  }
+}

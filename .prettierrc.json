@@ -1,0 +1,8 @@
+{
+  "plugins": ["@shopify/prettier-plugin-liquid"],
+  "proseWrap": "preserve",
+  "overrides": [
+    { "files": ["*.html", "*.xml"], "options": { "parser": "liquid-html" } },
+    { "files": ["*.txt", "styles.scss"], "options": { "parser": "markdown" } }
+  ]
+}

@@ -1,0 +1,6 @@
+_site/
+_gh_pages/
+vendor/
+node_modules/
+.jekyll-cache/
+.sass-cache/

@@ -1,6 +1,15 @@
-<ul>
-  <li><strong>E-mail:</strong> <code class="language-plaintext highlighter-rouge">{{ site.data.profile.email | escape }}</code></li>
-  {% for link in site.data.profile.links %}
-  <li><strong>{{ link.label | escape }}:</strong> <a href="{{ link.url | escape }}">{{ link.text | escape }}</a></li>
-  {% endfor %}
-</ul>
+{% if page.output_format == 'markdown' %}
+  {% include contact-list.md %}
+{% else %}
+  <ul>
+    <li>
+      <strong>E-mail:</strong>
+      <code class="language-plaintext highlighter-rouge">{{ site.data.profile.email | escape }}</code>
+    </li>
+    {% for link in site.data.profile.links %}
+      <li>
+        <strong>{{ link.label | escape }}:</strong> <a href="{{ link.url | escape }}">{{ link.text | escape }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

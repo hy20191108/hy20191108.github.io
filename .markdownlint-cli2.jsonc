@@ -1,0 +1,14 @@
+{
+  "globs": ["**/*.md", "**/*.txt"],
+  "ignores": ["node_modules/**", "vendor/**", "_site/**", "_gh_pages/**"],
+  "config": {
+    "default": true,
+    // Prettier owns wrapping; bibliography entries and tables remain readable.
+    "MD013": false,
+    // Jekyll sources intentionally embed HTML, checked after rendering.
+    "MD033": false,
+    // Layouts and includes provide titles; source fragments need no extra H1.
+    "MD041": false,
+    "MD025": { "front_matter_title": "" },
+  },
+}

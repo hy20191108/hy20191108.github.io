@@ -22,7 +22,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-titles-from-headings
 
-
 # Optimize Jekyll
 exclude:
   - .editorconfig
@@ -33,6 +32,13 @@ exclude:
   - LICENSE.md
   - CLAUDE.md
   - vendor
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - poole-for-jekyll.gemspec
+  - Dockerfile
+  - docker-compose.yml
 
 sass:
   sass_dir: _sass

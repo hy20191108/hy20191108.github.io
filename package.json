@@ -1,0 +1,24 @@
+{
+  "name": "haruhiko-yoshioka-homepage",
+  "private": true,
+  "engines": {
+    "node": ">=24.8.0 <25"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint:markdown": "markdownlint-cli2",
+    "lint:styles": "stylelint '_sass/**/*.scss' --max-warnings 0",
+    "lint:html": "html-validate '_site/**/*.html'",
+    "lint": "npm run format:check && npm run lint:markdown && npm run lint:styles",
+    "check": "npm run lint && bundle exec standardrb && bundle exec jekyll build && bundle exec ruby _scripts/check_llms.rb && npm run lint:html"
+  },
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "1.11.0",
+    "html-validate": "11.14.0",
+    "markdownlint-cli2": "0.23.2",
+    "prettier": "3.9.6",
+    "stylelint": "17.15.0",
+    "stylelint-config-standard-scss": "17.0.0"
+  }
+}

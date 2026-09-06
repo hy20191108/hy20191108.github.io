@@ -3,31 +3,31 @@
 ## Jekyll / GitHub Pages 開発ルール
 
 - `jekyll-redirect-from` 競合: `redirect_from: /jp/` と `jp/index.md` の `redirect_to: /` は同一ファイルを生成して衝突する。どちらか一方に統一する
-- `jekyll-seo-tag` との canonical 競合: 手書き hreflang/canonical を使う場合は `{% seo canonical=false %}` を必ず付ける
-- GitHub Actions は master push のみトリガー。PR ブランチでは `pages-build-deployment` は走らない
+- canonical は `jekyll-seo-tag` が生成する1箇所に統一する。hreflang は `_includes/head.html` で管理する。
+- 検査と公開の手順・条件は `README.md` と `.github/workflows/build.yml` を参照する。
 - 言語スイッチャー: `<nav aria-label="Change language">` + リンクに `lang=` と `hreflang=` をセットで付ける
 
 ## 業績情報の参照先
 
 不足情報補完用のリソース一覧：
 
-| リソース | URL | アクセス方法 | 用途 | robots.txt |
-|---------|-----|------------|------|-----------|
-| 嶋利一真 HP | https://k-shimari.github.io/index.ja.html | WebFetch | 共著者業績確認 | なし ✓ |
-| 上野研 PMAN | https://pman.uwanolab.jp/pman3.cgi | WebFetch | 業績検索・BibTeX出力 | なし ✓ |
-| NAIST SE研 業績 | https://naist-se.github.io/en/publish/ | playwright-cli | 研究室業績一覧 | なし ✓ |
-| NAISTAR OAI-PMH | https://naist.repo.nii.ac.jp/oai | OAI-PMH | メタデータ抽出（推奨） | 許可 ✓ |
-| NAISTAR 検索UI | https://naist.repo.nii.ac.jp/search | playwright-cli | 全文検索（JS必須） | 許可 ✓ |
-| AI-Driven SE Summit | https://posl.ait.kyushu-u.ac.jp/~aidriven2025/ | WebFetch | イベント情報 | なし ✓ |
+| リソース            | URL                                              | アクセス方法   | 用途                   | robots.txt |
+| ------------------- | ------------------------------------------------ | -------------- | ---------------------- | ---------- |
+| 嶋利一真 HP         | <https://k-shimari.github.io/index.ja.html>      | WebFetch       | 共著者業績確認         | なし ✓     |
+| 上野研 PMAN         | <https://pman.uwanolab.jp/pman3.cgi>             | WebFetch       | 業績検索・BibTeX出力   | なし ✓     |
+| NAIST SE研 業績     | <https://naist-se.github.io/en/publish/>         | playwright-cli | 研究室業績一覧         | なし ✓     |
+| NAISTAR OAI-PMH     | <https://naist.repo.nii.ac.jp/oai>               | OAI-PMH        | メタデータ抽出（推奨） | 許可 ✓     |
+| NAISTAR 検索UI      | <https://naist.repo.nii.ac.jp/search>            | playwright-cli | 全文検索（JS必須）     | 許可 ✓     |
+| AI-Driven SE Summit | <https://posl.ait.kyushu-u.ac.jp/~aidriven2025/> | WebFetch       | イベント情報           | なし ✓     |
 
 ## 外部API利用の意思決定フロー
 
-| シナリオ | 推奨リソース | 理由 |
-|---------|-----------|------|
+| シナリオ           | 推奨リソース                         | 理由                                 |
+| ------------------ | ------------------------------------ | ------------------------------------ |
 | 著者名で全業績抽出 | PMAN BibTeX (`?A=yoshioka&MODE=bbl`) | 統一フォーマット、サーバーサイド生成 |
-| DOI/詳細情報が必要 | PMAN 個別ページ (`?D=xxx`) | BibTeX出力ではDOI/URLが省略される |
-| NAIST限定情報取得 | NAISTAR OAI-PMH | 標準プロトコル、robots.txt許可 |
-| JS動的ページ | playwright-cli スキル | WebFetchでは結果取得不可 |
+| DOI/詳細情報が必要 | PMAN 個別ページ (`?D=xxx`)           | BibTeX出力ではDOI/URLが省略される    |
+| NAIST限定情報取得  | NAISTAR OAI-PMH                      | 標準プロトコル、robots.txt許可       |
+| JS動的ページ       | playwright-cli スキル                | WebFetchでは結果取得不可             |
 
 ## PMAN 仕様メモ (v3.2.10)
 
@@ -35,17 +35,17 @@
 
 ### 主要パラメータ
 
-| パラメータ | 説明 | 例 |
-|-----------|------|-----|
-| `D` | 論文ID指定（個別ページ） | `?D=250` |
-| `A` | 著者名検索 | `?A=yoshioka` |
-| `T` | タグ検索 (AND/OR) | `?T=eye` |
-| `MODE` | 出力形式: `list`, `table`, `latex`, `bbl` | `?MODE=bbl` |
-| `LANG` | 言語: `ja`, `en` | `?LANG=en` |
-| `PTYPE` | 出版物タイプ: `all`, 著書, 論文誌, 国際会議 等 | `?PTYPE=all` |
-| `SORT` | ソート順（年月昇順/降順） | |
-| `MENU` | `simple` / `detail`（詳細検索） | `?MENU=detail` |
-| `STATIC` | 静的HTMLを生成 | |
+| パラメータ | 説明                                           | 例             |
+| ---------- | ---------------------------------------------- | -------------- |
+| `D`        | 論文ID指定（個別ページ）                       | `?D=250`       |
+| `A`        | 著者名検索                                     | `?A=yoshioka`  |
+| `T`        | タグ検索 (AND/OR)                              | `?T=eye`       |
+| `MODE`     | 出力形式: `list`, `table`, `latex`, `bbl`      | `?MODE=bbl`    |
+| `LANG`     | 言語: `ja`, `en`                               | `?LANG=en`     |
+| `PTYPE`    | 出版物タイプ: `all`, 著書, 論文誌, 国際会議 等 | `?PTYPE=all`   |
+| `SORT`     | ソート順（年月昇順/降順）                      |                |
+| `MENU`     | `simple` / `detail`（詳細検索）                | `?MENU=detail` |
+| `STATIC`   | 静的HTMLを生成                                 |                |
 
 ### 組み合わせ例
 
@@ -92,19 +92,19 @@
 
 ### 情報不足の業績
 
-| 業績 | 不足情報 | 状況 |
-|------|---------|------|
-| SNPD2023-Winter | 会議論文集のページ番号 | 確認不可（Springer書籍版は pp.137-152） |
-| MSR 2026 | データベース未登録 | 最新のためPMAN/NAIST SE研に未反映、プログラムで確認可能 |
+| 業績            | 不足情報               | 状況                                                    |
+| --------------- | ---------------------- | ------------------------------------------------------- |
+| SNPD2023-Winter | 会議論文集のページ番号 | 確認不可（Springer書籍版は pp.137-152）                 |
+| MSR 2026        | データベース未登録     | 最新のためPMAN/NAIST SE研に未反映、プログラムで確認可能 |
 
 ## 外部リソースアクセス ポリシー確認済み
 
 **確認日**: 2026-02-09
 
-| サイト | robots.txt | 状況 |
-|--------|-----------|------|
-| 嶋利HP | 存在しない | 制限なし ✓ |
-| PMAN | 存在しない | 制限なし ✓ |
-| NAIST SE研 | 存在しない | 制限なし ✓ |
-| NAISTAR | 存在する | `/api/` Disallow ✗、`/oai` 許可 ✓ |
-| AI-Driven Summit | 存在しない | 制限なし ✓ |
+| サイト           | robots.txt | 状況                              |
+| ---------------- | ---------- | --------------------------------- |
+| 嶋利HP           | 存在しない | 制限なし ✓                        |
+| PMAN             | 存在しない | 制限なし ✓                        |
+| NAIST SE研       | 存在しない | 制限なし ✓                        |
+| NAISTAR          | 存在する   | `/api/` Disallow ✗、`/oai` 許可 ✓ |
+| AI-Driven Summit | 存在しない | 制限なし ✓                        |

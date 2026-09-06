@@ -1,0 +1,9 @@
+---
+layout: null
+lang: ja
+output_format: markdown
+permalink: /index.md
+sitemap: false
+---
+
+{% capture profile_markdown %}{% include profile-ja.md %}{% endcapture %}{{ profile_markdown | remove: "<u>" | remove: "</u>" | strip }}

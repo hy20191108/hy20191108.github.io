@@ -1,0 +1,15 @@
+{
+  "extends": ["stylelint-config-standard-scss"],
+  "rules": {
+    "color-function-notation": "legacy",
+    "media-feature-range-notation": "prefix",
+    "property-no-vendor-prefix": [
+      true,
+      {
+        "ignoreProperties": ["-webkit-text-size-adjust", "-ms-text-size-adjust"]
+      }
+    ],
+    "color-function-alias-notation": "with-alpha",
+    "alpha-value-notation": "number"
+  }
+}

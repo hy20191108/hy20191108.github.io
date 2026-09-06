@@ -1,87 +1,95 @@
 <head>
   <!-- Google tag (gtag.js) -->
   {% if site.ga_analytics %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', '{{ site.ga_analytics }}');
-  </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', '{{ site.ga_analytics }}');
+    </script>
   {% endif %}
   <!-- End Google tag -->
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="describedby" href="{{ '/llms.txt' | absolute_url }}">
+  {% if page.markdown_url %}
+    <link rel="alternate" type="text/markdown" href="{{ page.markdown_url | absolute_url }}">
+  {% endif %}
+
   {% if page.url contains '/en/' %}
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}">
-  <link rel="alternate" hreflang="ja" href="{{ site.url }}/">
-  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
+    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}">
+    <link rel="alternate" hreflang="ja" href="{{ site.url }}/">
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
   {% else %}
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  <link rel="alternate" hreflang="ja" href="{{ site.url }}/">
-  <link rel="alternate" hreflang="en" href="{{ site.url }}/en/">
-  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
+    <link rel="alternate" hreflang="ja" href="{{ site.url }}/">
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/en/">
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
   {% endif %}
 
   <title>
-    {% if page.title == "Home" %}
-    {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
-    {% else %}
-    {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
+    {%- if page.title == 'Home' -%}
+      {{ site.title }}
+    {%- else -%}
+      {{ page.title }} &middot; {{ site.title }}
+    {%- endif -%}
   </title>
 
   <link rel="stylesheet" href="{{ 'styles.css' | relative_url }}">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144"
-    href="{{ '/assets/apple-touch-icon-precomposed.png' | relative_url }}">
+  <link
+    rel="apple-touch-icon-precomposed"
+    sizes="144x144"
+    href="{{ '/assets/apple-touch-icon-precomposed.png' | relative_url }}"
+  >
   <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ 'atom.xml' | relative_url }}">
 
   <!-- Structured Data for SEO -->
-  {% assign same_as_links = site.data.profile.links | where: "same_as", true %}
+  {% assign same_as_links = site.data.profile.links | where: 'same_as', true %}
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": {{ site.data.profile.name | jsonify }},
-    "givenName": {{ site.data.profile.given_name | jsonify }},
-    "familyName": {{ site.data.profile.family_name | jsonify }},
-    "alternateName": {{ site.data.profile.alternate_name | jsonify }},
-    "url": "{{ site.url }}",
-    "sameAs": [{% for link in same_as_links %}
-      {{ link.url | jsonify }}{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ],
-    "affiliation": {
-      "@type": "Organization",
-      "name": {{ site.data.profile.organization.name | jsonify }},
-      "alternateName": {{ site.data.profile.organization.alternate_name | jsonify }}
-    },
-    "knowsAbout": [
-      "Software Engineering",
-      "Program Comprehension",
-      "Eye Tracking",
-      "Machine Learning",
-      "Deep Learning",
-      "Natural Language Processing"
-    ],
-    "inLanguage": [
-      {
-        "@type": "Language",
-        "name": "Japanese",
-        "alternateName": "ja"
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": {{ site.data.profile.name | jsonify }},
+      "givenName": {{ site.data.profile.given_name | jsonify }},
+      "familyName": {{ site.data.profile.family_name | jsonify }},
+      "alternateName": {{ site.data.profile.alternate_name | jsonify }},
+      "url": "{{ site.url }}",
+      "sameAs": [{% for link in same_as_links %}
+        {{ link.url | jsonify }}{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ],
+      "affiliation": {
+        "@type": "Organization",
+        "name": {{ site.data.profile.organization.name | jsonify }},
+        "alternateName": {{ site.data.profile.organization.alternate_name | jsonify }}
       },
-      {
-        "@type": "Language",
-        "name": "English",
-        "alternateName": "en"
-      }
-    ]
-  }
+      "knowsAbout": [
+        "Software Engineering",
+        "Program Comprehension",
+        "Eye Tracking",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing"
+      ],
+      "inLanguage": [
+        {
+          "@type": "Language",
+          "name": "Japanese",
+          "alternateName": "ja"
+        },
+        {
+          "@type": "Language",
+          "name": "English",
+          "alternateName": "en"
+        }
+      ]
+    }
   </script>
 
-  {% seo title=false canonical=false %}
+  {% seo title=false %}
 </head>
