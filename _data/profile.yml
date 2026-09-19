@@ -38,7 +38,7 @@ locales:
     affiliation:
       - 先端科学技術研究科 先端科学技術専攻
       - 情報科学領域 ソフトウェア工学研究室
-      - 博士後期課程1年
+      - 博士後期課程2年
   en:
     image_alt: Profile picture
     heading: Haruhiko Yoshioka (よしおか はるひこ)
@@ -46,4 +46,4 @@ locales:
       - Graduate School of Science and Technology
       - Department of Science and Technology
       - Division of Information Science
-      - Software Engineering Laboratory, 1st Year Doctoral Course
+      - Software Engineering Laboratory, 2nd Year Doctoral Course
