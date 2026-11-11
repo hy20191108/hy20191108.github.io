@@ -33,14 +33,34 @@ jobs:
           ruby-version: "3.3.4"
           bundler-cache: true
       - run: bun run check
-      - run: bunx playwright install --with-deps chromium
-      - run: bun run test:browser
       - uses: actions/upload-pages-artifact@v5
-        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+
+  browser:
+    needs: build
+    runs-on: ubuntu-24.04
+    container:
+      # Match @playwright/test in package.json.
+      image: mcr.microsoft.com/playwright:v1.65.0-noble
+      options: --ipc=host
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - uses: actions/download-artifact@v8
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/site-artifact
+      - run: |
+          mkdir -p _site
+          tar -xf "$RUNNER_TEMP/site-artifact/artifact.tar" -C _site
+      - run: bun run test:browser
 
   deploy:
     if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
-    needs: build
+    needs: [build, browser]
     runs-on: ubuntu-latest
     permissions:
       pages: write

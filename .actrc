@@ -1,3 +1,4 @@
 --workflows .github/workflows/build.yml
---job build
+--job browser
 --platform ubuntu-24.04=catthehacker/ubuntu:act-24.04
+--artifact-server-path .cache/act-artifacts
