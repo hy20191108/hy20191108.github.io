@@ -131,19 +131,17 @@ Awards at JPHACKS2024:
 | :------------ | :------------------------------------------------------------------------------------------------------ |
 | 2023          | [Academic Excellence Award for Graduates, National Institute of Technology, Nara College][nara-k-award] |
 
-## Research Grants & Fellowships
+## Research Funding
 
-### Research Grants
+| Period               | Program                                      | Amount        |
+| :------------------- | :------------------------------------------- | :------------ |
+| July 2026-March 2027 | FY2026 KIOXIA Encouragement Research Program | JPY 2,000,000 |
 
-| Period               | Program                                      | Note     |
-| :------------------- | :------------------------------------------- | :------- |
-| July 2026-March 2027 | FY2026 KIOXIA Encouragement Research Program | Selected |
+## Fellowship
 
-### Fellowship
-
-| Period        | Program                                                                                              | Note                                             |
-| :------------ | :--------------------------------------------------------------------------------------------------- | :----------------------------------------------- |
-| October 2025– | NAIST Granite Program (JST SPRING: Support for Pioneering Research Initiated by the Next Generation) | Selected. [Interview Article][granite-interview] |
+| Period        | Program                                                                                              | Note                                   |
+| :------------ | :--------------------------------------------------------------------------------------------------- | :------------------------------------- |
+| October 2025– | NAIST Granite Program (JST SPRING: Support for Pioneering Research Initiated by the Next Generation) | [Interview Article][granite-interview] |
 
 [eye2vec-acm]: https://doi.org/10.1145/3715669.3726801
 [agentic-pr-arxiv]: https://arxiv.org/abs/2601.18749
