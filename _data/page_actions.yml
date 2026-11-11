@@ -1,0 +1,14 @@
+ja:
+  label: このページの操作
+  copy: ページをコピー
+  markdown: マークダウンで表示
+  copying: コピーしています…
+  copied: コピーしました．
+  failed: コピーできませんでした．マークダウンで表示して，本文をコピーしてください．
+en:
+  label: Page actions
+  copy: Copy page
+  markdown: View as Markdown
+  copying: Copying…
+  copied: Copied.
+  failed: Could not copy. Open the Markdown view and copy the text there.

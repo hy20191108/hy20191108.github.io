@@ -1,0 +1,46 @@
+.page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: var(--spacer-2);
+}
+
+.page-action {
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  font-size: 0.875rem;
+  color: var(--body-color);
+  text-decoration: none;
+  cursor: pointer;
+  background: var(--body-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+
+  &:hover {
+    color: var(--link-hover-color);
+    border-color: currentcolor;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
+  }
+
+  &:disabled {
+    cursor: wait;
+    opacity: 0.6;
+  }
+}
+
+.page-actions-status {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 0.875rem;
+  text-align: right;
+
+  &:empty {
+    display: none;
+  }
+}

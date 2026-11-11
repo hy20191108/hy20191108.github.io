@@ -56,6 +56,20 @@ class PublishedSiteTest < Minitest::Test
     end
   end
 
+  def test_profile_actions_offer_the_matching_markdown_version
+    PROFILES.each do |markdown_path, html_path|
+      page = html(html_path)
+      actions = page.at_css('.page-actions[role="group"]')
+      refute_nil actions, "#{html_path}: missing page actions"
+      assert_equal "/#{markdown_path}", actions.at_css("a")["href"]
+      assert_equal "button", actions.at_css("[data-copy-page]")["type"]
+      refute_nil actions.at_css('[role="status"]'), "Copy needs accessible feedback"
+      refute_nil page.at_css('script[src="/assets/page-actions.js"]')
+    end
+    assert File.exist?(File.join(@site_dir, "assets/page-actions.js"))
+    assert_nil html("404.html").at_css(".page-actions")
+  end
+
   def test_existing_language_redirects
     {"jp" => "", "ja" => "", "japanese" => "", "english" => "en/"}.each do |path, route|
       page = html("#{path}/index.html")

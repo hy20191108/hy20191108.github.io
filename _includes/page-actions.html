@@ -1,0 +1,19 @@
+{% assign actions = site.data.page_actions[page.lang] %}
+<div class="page-actions" role="group" aria-label="{{ actions.label }}">
+  <button
+    type="button"
+    class="page-action"
+    data-copy-page
+    data-copying="{{ actions.copying }}"
+    data-copied="{{ actions.copied }}"
+    data-failed="{{ actions.failed }}"
+    hidden
+  >
+    {{ actions.copy }}
+  </button>
+  <a class="page-action" href="{{ page.markdown_url | relative_url }}" target="_blank" rel="noopener">
+    {{ actions.markdown }}
+  </a>
+  <p class="page-actions-status" role="status" aria-live="polite"></p>
+</div>
+<script src="{{ '/assets/page-actions.js' | relative_url }}" defer></script>
