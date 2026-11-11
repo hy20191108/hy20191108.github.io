@@ -64,12 +64,12 @@ I compare human and AI code change proposals to understand the characteristics o
 
 ## Education
 
-| Period   | Institution                                                                                                                            |
-| :------- | :------------------------------------------------------------------------------------------------------------------------------------- |
-| 2025/10~ | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology (Doctoral Course) |
-| 2024/04~ | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology (Master's Course) |
-| 2022/04~ | Department of Advanced Information Engineering, National Institute of Technology, Nara College (Valedictorian)                         |
-| 2017/04~ | Department of Information Engineering, National Institute of Technology, Nara College                                                  |
+| Period          | Institution                                                                                                                                             |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 2025/10~        | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology (Doctoral Course)                  |
+| 2024/04–2025/09 | Division of Information Science, Graduate School of Science and Technology, Nara Institute of Science and Technology (Master's Course, completed early) |
+| 2022/04–2024/03 | Department of Advanced Information Engineering, National Institute of Technology, Nara College (Completed, Valedictorian)                               |
+| 2017/04–2022/03 | Department of Information Engineering, National Institute of Technology, Nara College (Graduated)                                                       |
 
 ## Internships
 
@@ -86,17 +86,22 @@ I compare human and AI code change proposals to understand the characteristics o
 | 2025/05/26~29 | Student Volunteer               | [ETRA2025](https://etra.acm.org/2025/index.html)                                        |
 | 2024/12       | Organizer/Young Researcher Team | [International Workshop WIREDS2024](https://wireds2024.github.io/)                      |
 
-## University Activities
+## Research Visits
 
-| Period           | Activity                                                                                                                                                       |
-| :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026/08/02~08/30 | Short-term Research Stay at the University of Calgary, Canada                                                                                                  |
-| 2026/03/02~03/20 | Short-term Research Stay at the University of Calgary, Canada                                                                                                  |
-| 2025/06~2025/09  | Research Assistant (Nara Institute of Science and Technology)                                                                                                  |
-| 2025/04~2025/09  | Teaching Assistant (Nara Institute of Science and Technology)                                                                                                  |
-| 2024/10~2025/03  | NAIST STELLA Program (JST Next Generation Science and Technology Challenge Program) Student Mentor                                                             |
-| 2024/10~2025/03  | Research Assistant (Nara Institute of Science and Technology)                                                                                                  |
-| 2024/05~2025/01  | Nara Institute of Science and Technology & Nara Kita High School Collaborative Project "High School Student Long-term Internship" Supervising Graduate Student |
+| Stay Period       | Host Institution              |
+| :---------------- | :---------------------------- |
+| August 2–30, 2026 | University of Calgary, Canada |
+| March 2–20, 2026  | University of Calgary, Canada |
+
+## Research & Teaching Activities
+
+| Period          | Role                         | Institution/Program                                                                                                              |
+| :-------------- | :--------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| 2025/06–2025/09 | Research Assistant           | Nara Institute of Science and Technology                                                                                         |
+| 2025/04–2025/09 | Teaching Assistant           | Nara Institute of Science and Technology                                                                                         |
+| 2024/10–2025/03 | Student Mentor               | NAIST STELLA Program (JST Next Generation Science and Technology Challenge Program)                                              |
+| 2024/10–2025/03 | Research Assistant           | Nara Institute of Science and Technology                                                                                         |
+| 2024/05–2025/01 | Supervising Graduate Student | Nara Institute of Science and Technology & Nara Kita High School Collaborative Project: High School Student Long-term Internship |
 
 ## Awards & Others
 
