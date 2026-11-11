@@ -103,20 +103,29 @@ I compare human and AI code change proposals to understand the characteristics o
 | 2024/10–2025/03 | Research Assistant           | Nara Institute of Science and Technology                                                                                         |
 | 2024/05–2025/01 | Supervising Graduate Student | Nara Institute of Science and Technology & Nara Kita High School Collaborative Project: High School Student Long-term Internship |
 
-## Awards & Others
+## Hackathons
 
-### JPHACKS2024
+| Event       | Project                                                                                                             | Contribution                                                                                                                                                                       |
+| :---------- | :------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| JPHACKS2024 | [Eventpix](https://github.com/jphacks/os_2407): an app that extracts events from photos and adds them to a calendar | In this team project, I implemented calendar registration and support for receiving images shared from other apps. [Mobile App](https://github.com/NAIST-Eventpix/eventpix_mobile) |
 
-- **[Project](https://github.com/jphacks/os_2407)**: Eventpix (5th place out of 98 teams)
-- **JPHACKS Award**
-  - [JPHACKS Innovator Certification](https://jphacks.com/2024/result/)
-  - Sponsor Awards (Galirage Inc.)
-- **JPHACKS Hack Day**
-  - [JPHACKS Finalist Award](<https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix)>)
-  - Best Hack Day Award
-  - [Sponsor Award (Ezaki Glico Co., Ltd.)](https://www.glico.com/jp/health/contents/JPHACKS_2024/)
+Awards at JPHACKS2024:
 
-### Other Awards
+| Category         | Award/Recognition                                                                                                           |
+| :--------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| JPHACKS Award    | [JPHACKS Innovator Certification](https://jphacks.com/2024/result/)                                                         |
+| JPHACKS Award    | Sponsor Awards (Galirage Inc.)                                                                                              |
+| JPHACKS Hack Day | [JPHACKS Finalist Award](<https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix)>) |
+| JPHACKS Hack Day | Best Hack Day Award                                                                                                         |
+| JPHACKS Hack Day | [Sponsor Award (Ezaki Glico Co., Ltd.)](https://www.glico.com/jp/health/contents/JPHACKS_2024/)                             |
+
+## Published Software
+
+| Software             | Description                                                                                                                                                                    | Links                                                                                                                |
+| :------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------- |
+| semantic-scholar-mcp | A server for AI assistants to search Semantic Scholar for papers, authors, and citations. Built with Python and MCP, a protocol for connecting AI assistants to external tools | [GitHub](https://github.com/hy20191108/semantic-scholar-mcp), [PyPI](https://pypi.org/project/semantic-scholar-mcp/) |
+
+## Other Awards
 
 - [2023 Academic Excellence Award for Graduates, National Institute of Technology, Nara College](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
 

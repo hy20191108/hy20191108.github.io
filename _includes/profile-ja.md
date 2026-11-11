@@ -103,20 +103,29 @@
 | 2024年10月～2025年3月 | リサーチ・アシスタント     | 奈良先端科学技術大学院大学                                      |
 | 2024年5月～2025年1月  | 指導大学院生               | 奈良先端・奈良北高校連携事業「高校生長期インターンシップ」      |
 
-## 受賞・その他の活動
+## ハッカソン
 
-### JPHACKS2024
+| イベント    | 作品                                                                                               | 担当                                                                                                                                                          |
+| :---------- | :------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| JPHACKS2024 | [Eventpix](https://github.com/jphacks/os_2407)：写真から予定を取り込み，カレンダーへ登録するアプリ | チーム開発で，カレンダーへの登録処理と，他のアプリから共有された画像を受け取る処理を実装．[モバイルアプリ](https://github.com/NAIST-Eventpix/eventpix_mobile) |
 
-- **[作品](https://github.com/jphacks/os_2407)**: Eventpix（98チーム中5位）
-- **JPHACKS Award**
-  - [JPHACKS Innovator認定](https://jphacks.com/2024/result/)
-  - Sponsor Awards（株式会社 Galirage 受賞）
-- **JPHACKS Hack Day**
-  - [JPHACKS Finalist Award受賞](<https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix)>)
-  - Best Hack Day Award受賞
-  - [Sponsor Award 江崎グリコ株式会社 受賞](https://www.glico.com/jp/health/contents/JPHACKS_2024/)
+JPHACKS2024での受賞：
 
-### その他の受賞
+| 区分             | 受賞・認定                                                                                                                  |
+| :--------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| JPHACKS Award    | [JPHACKS Innovator認定](https://jphacks.com/2024/result/)                                                                   |
+| JPHACKS Award    | Sponsor Awards（株式会社Galirage）                                                                                          |
+| JPHACKS Hack Day | [JPHACKS Finalist Award](<https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix)>) |
+| JPHACKS Hack Day | Best Hack Day Award                                                                                                         |
+| JPHACKS Hack Day | [Sponsor Award（江崎グリコ株式会社）](https://www.glico.com/jp/health/contents/JPHACKS_2024/)                               |
+
+## 公開ソフトウェア
+
+| ソフトウェア         | 概要                                                                                                                                      | 公開先                                                                                                               |
+| :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------- |
+| semantic-scholar-mcp | AIアシスタントからSemantic Scholarの論文・著者・引用情報を検索するサーバー．Pythonと，AIから外部ツールを呼び出すための仕様であるMCPを使用 | [GitHub](https://github.com/hy20191108/semantic-scholar-mcp)，[PyPI](https://pypi.org/project/semantic-scholar-mcp/) |
+
+## その他の受賞
 
 - [令和5年度修了生 専攻科研究優秀賞](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
 
