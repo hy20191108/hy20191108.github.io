@@ -120,6 +120,8 @@ I compare human and AI code change proposals to understand the characteristics o
 
 - [2023 Academic Excellence Award for Graduates, National Institute of Technology, Nara College](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
 
+## Research Grants & Fellowships
+
 ### Research Grants
 
 | Period               | Program                                      | Note     |
@@ -128,5 +130,6 @@ I compare human and AI code change proposals to understand the characteristics o
 
 ### Fellowship
 
-- NAIST Granite Program (JST SPRING: Support for Pioneering Research Initiated by the Next Generation) (2025/10~)
-  - [Interview Article](https://naist-granite.jp/interview/25-72/)
+| Period        | Program                                                                                              | Note                                                                     |
+| :------------ | :--------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------- |
+| October 2025– | NAIST Granite Program (JST SPRING: Support for Pioneering Research Initiated by the Next Generation) | Selected. [Interview Article](https://naist-granite.jp/interview/25-72/) |
