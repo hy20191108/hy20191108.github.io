@@ -94,7 +94,7 @@ class PublishedSiteTest < Minitest::Test
   end
 
   def test_development_files_are_not_published
-    %w[README.md README.html Gemfile Gemfile.lock package.json package-lock.json node_modules _scripts playwright.config.js test-results playwright-report .actrc].each do |path|
+    %w[README.md README.html Gemfile Gemfile.lock package.json bun.lock node_modules _scripts playwright.config.js test-results playwright-report .actrc].each do |path|
       refute File.exist?(File.join(@site_dir, path)), "Development file was published: #{path}"
     end
   end

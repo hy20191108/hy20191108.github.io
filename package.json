@@ -10,8 +10,8 @@
     "lint:markdown": "markdownlint-cli2",
     "lint:styles": "stylelint '_sass/**/*.scss' --max-warnings 0",
     "lint:html": "html-validate '_site/**/*.html'",
-    "lint": "npm run format:check && npm run lint:markdown && npm run lint:styles",
-    "check": "npm run lint && bundle exec standardrb && bundle exec jekyll build && bundle exec ruby _scripts/check_llms.rb && npm run lint:html",
+    "lint": "bun run format:check && bun run lint:markdown && bun run lint:styles",
+    "check": "bun run lint && bundle exec standardrb && bundle exec jekyll build && bundle exec ruby _scripts/check_llms.rb && bun run lint:html",
     "test:browser": "playwright test"
   },
   "devDependencies": {
@@ -22,5 +22,6 @@
     "prettier": "3.9.6",
     "stylelint": "17.15.0",
     "stylelint-config-standard-scss": "17.0.0"
-  }
+  },
+  "packageManager": "bun@1.4.4"
 }

@@ -26,15 +26,15 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: "24"
-          cache: npm
-      - run: npm ci
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.4"
           bundler-cache: true
-      - run: npm run check
-      - run: npx playwright install --with-deps chromium
-      - run: npm run test:browser
+      - run: bun run check
+      - run: bunx playwright install --with-deps chromium
+      - run: bun run test:browser
       - uses: actions/upload-pages-artifact@v5
         if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
 

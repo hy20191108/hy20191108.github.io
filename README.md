@@ -10,7 +10,7 @@
 
 ## ローカルで確認する
 
-Dockerを起動し，actでGitHub Actionsと同じビルドジョブをコンテナ内で実行する．ホストへのRuby・Node.jsのインストールは不要．
+Dockerを起動し，actでGitHub Actionsと同じビルドジョブをコンテナ内で実行する．ホストへのRuby・Node.js・Bunのインストールは不要．
 
 ```sh
 act pull_request
@@ -20,7 +20,9 @@ act pull_request
 
 ビルドジョブでは，整形，Markdown，SCSS，Ruby，Jekyllビルド，生成物の受入確認，HTML構文の確認に続き，ChromiumでページのコピーとMarkdown表示を確認する．日本語・英語，スマートフォン幅，コピーに失敗した場合，JavaScriptを無効にした場合を対象にする．
 
-実行環境を用意済みの場合は，`npm run check`と`npm run test:browser`を個別に実行できる．ブラウザテストはJekyllサーバーを起動し，終了時に停止する．自動修正には`npm run format`と`bundle exec standardrb --fix`を使う．
+JavaScriptの依存関係は`bun.lock`で固定し，CIでは`bun install --frozen-lockfile`でインストールする．Bunのバージョンは`package.json`の`packageManager`を参照する．
+
+実行環境を用意済みの場合は，`bun run check`と`bun run test:browser`を個別に実行できる．ブラウザテストはJekyllサーバーを起動し，終了時に停止する．自動修正には`bun run format`と`bundle exec standardrb --fix`を使う．
 
 SCSS の本体は `_sass/` に置く。`styles.scss` は Jekyll の front matter と読み込み宣言だけを持つ。Ruby Sass との互換性のため、色関数とメディアクエリは従来構文に固定する。Markdown の行折り返しは Prettier に任せ、HTML を含むテンプレートの構文は生成後にも検査する。
 
