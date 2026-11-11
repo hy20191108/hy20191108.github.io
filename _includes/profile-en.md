@@ -2,13 +2,24 @@
 
 ## Research Topics & Expertise
 
-I am researching methods to automatically interpret software developers' eye tracking data using natural language processing techniques, enabling analysis through machine learning and deep learning, with the aim of supporting program comprehension.
+I study ways for humans and AI to develop software efficiently together. My work in software engineering focuses on supporting developers' program comprehension and understanding how AI-generated changes are incorporated into software development. I am also interested in preserving and passing on development decisions and their rationale.
 
-### Expertise
+### Supporting Program Comprehension
 
-- Program Comprehension, Programming Education (Software Engineering)
-- Eye Movement Analysis (Biological Information)
-- Syntax Parsing, Distributed Representations, Deep Learning, Machine Learning (Natural Language Processing, Artificial Intelligence)
+I propose eye2vec, a method for AI-based analysis of developers' eye movements, to support program comprehension. Experts' reading strategies can inform development and education, but relating eye movements to source code requires substantial manual analysis. eye2vec links eye movements to code structure and converts them into numerical representations for machine learning and other analyses. [[Paper](https://doi.org/10.1145/3715669.3726801)]
+
+### Understanding How AI Changes Are Incorporated into Development
+
+I compare human and AI code change proposals to understand the characteristics of proposals that are accepted into software projects. In a collaborative study, we used statistical models to analyze human and AI agent pull requests. We found that submitter attributes were strongly associated with merge outcomes, and that the relationships between review-related features and merge outcomes differed between humans and AI agents. [[Paper](https://arxiv.org/abs/2601.18749)]
+
+### Related Keywords
+
+- Software Engineering
+- Program Comprehension, Programming Education
+- Eye Tracking
+- Human–AI Collaboration
+- Software Repository Mining
+- Machine Learning, Natural Language Processing
 
 ## Contact
 
