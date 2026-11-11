@@ -22,6 +22,9 @@ exclude:
   - package-lock.json
   - README.md
   - _scripts
+  - playwright.config.js
+  - test-results
+  - playwright-report
 
 sass:
   sass_dir: _sass

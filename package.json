@@ -11,9 +11,11 @@
     "lint:styles": "stylelint '_sass/**/*.scss' --max-warnings 0",
     "lint:html": "html-validate '_site/**/*.html'",
     "lint": "npm run format:check && npm run lint:markdown && npm run lint:styles",
-    "check": "npm run lint && bundle exec standardrb && bundle exec jekyll build && bundle exec ruby _scripts/check_llms.rb && npm run lint:html"
+    "check": "npm run lint && bundle exec standardrb && bundle exec jekyll build && bundle exec ruby _scripts/check_llms.rb && npm run lint:html",
+    "test:browser": "playwright test"
   },
   "devDependencies": {
+    "@playwright/test": "1.65.0",
     "@shopify/prettier-plugin-liquid": "1.11.0",
     "html-validate": "11.14.0",
     "markdownlint-cli2": "0.23.2",
