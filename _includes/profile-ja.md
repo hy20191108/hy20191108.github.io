@@ -6,11 +6,11 @@
 
 ### プログラム理解の支援
 
-プログラム理解を支援するため，開発者の視線をAIで分析する手法「eye2vec」を提案しています．熟練者の読み方は開発や教育を改善する手掛かりになりますが，視線の動きとコードの内容を対応付ける分析には手間がかかります．eye2vecでは，視線とコードの構造を対応付け，機械学習などの分析に使える数値表現へ変換します．[[論文](https://doi.org/10.1145/3715669.3726801)]
+プログラム理解を支援するため，開発者の視線をAIで分析する手法「eye2vec」を提案しています．熟練者の読み方は開発や教育を改善する手掛かりになりますが，視線の動きとコードの内容を対応付ける分析には手間がかかります．eye2vecでは，視線とコードの構造を対応付け，機械学習などの分析に使える数値表現へ変換します．[[論文][eye2vec-acm]]
 
 ### AIによる変更を開発に取り入れるための分析
 
-人間とAIが作るコードの変更提案を比較し，開発に採用される提案の特徴を調べています．共同研究では，人間とAIエージェントによるPull Request（コードの変更提案）を統計モデルで分析しました．提案者の属性が採用と強く関連することに加え，レビューに関する特徴と採用との関係が人間とAIで異なることを示しました．[[論文](https://arxiv.org/abs/2601.18749)]
+人間とAIが作るコードの変更提案を比較し，開発に採用される提案の特徴を調べています．共同研究では，人間とAIエージェントによるPull Request（コードの変更提案）を統計モデルで分析しました．提案者の属性が採用と強く関連することに加え，レビューに関する特徴と採用との関係が人間とAIで異なることを示しました．[[論文][agentic-pr-arxiv]]
 
 ### 関連するキーワード
 
@@ -29,38 +29,38 @@
 
 ### 論文誌
 
-- **<u>Haruhiko Yoshioka</u>** and Hidetake Uwano, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," Networking and Parallel/Distributed Computing Systems, Studies in Computational Intelligence, vol. 1125, pages 137-152, April 2024. （査読有）[[Springer](https://link.springer.com/chapter/10.1007/978-3-031-53274-0_10), [LAB](https://pman.uwanolab.jp/pman3.cgi?D=231)]
+- **<u>Haruhiko Yoshioka</u>** and Hidetake Uwano, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," Networking and Parallel/Distributed Computing Systems, Studies in Computational Intelligence, vol. 1125, pages 137-152, April 2024. （査読有）[[Springer][mapping-springer], [LAB][lab-231]]
 
 ### 国際会議
 
-- **<u>Kyogo Horikawa</u>**, **<u>Hidetake Uwano</u>**, **<u>Haruhiko Yoshioka</u>**, "Identifying Effective Program Comprehension Strategies through Gaze Transitions over Syntactic Elements," The Fourteenth International Workshop on Eye Movements in Programming (EMIP 2026), Marrakech, Morocco, June 1, 2026. （オーラル，査読有）[[ACM](https://doi.org/10.1145/3797246.3806012), [arXiv](https://arxiv.org/abs/2607.01042)]
-- **<u>Haruhiko Yoshioka</u>**, Takahiro Monno, Haruka Tokumasu, Taiki Wakamatsu, Yuki Ota, Nimmi Weeraddana, Kenichi Matsumoto, "Let's Make Every Pull Request Meaningful: An Empirical Analysis of Developer and Agentic Pull Requests," Mining Software Repositories (MSR) 2026 Mining Challenge, Rio de Janeiro, Brazil, April 13-14, 2026. [[arXiv](https://arxiv.org/abs/2601.18749)]
-- **<u>Haruhiko Yoshioka</u>**, Kazumasa Shimari, Hidetake Uwano, Kenichi Matsumoto, "eye2vec: Learning Distributed Representations of Eye Movement for Program Comprehension Analysis," The 2025 ACM Symposium on Eye Tracking Research & Applications (ETRA2025) LBW, no.51, Tokyo, Japan, 28 May 2025. （ポスター，査読有）[[ACM](https://doi.org/10.1145/3715669.3726801), [arXiv](https://arxiv.org/abs/2510.11722), [LAB](https://pman.uwanolab.jp/pman3.cgi?D=250)]
-- **<u>Haruhiko Yoshioka</u>**, Sila Lertbanjongngam, Masayuki Inaba, Youmei Fan, Takashi Nakano, Kazumasa Shimari, Raula Gaikovina Kula, Kenichi Matsumoto, "Do Developers Depend on Deprecated Library Versions? A Mining Study of Log4j," Mining Software Repositories (MSR) 2025 Mining Challenge, Ottawa, Canada, pages 314-318, April 2025. （オーラル，査読有）[[IEEE](https://ieeexplore.ieee.org/document/11025729/), [arXiv](https://arxiv.org/abs/2504.03167)]
+- **<u>Kyogo Horikawa</u>**, **<u>Hidetake Uwano</u>**, **<u>Haruhiko Yoshioka</u>**, "Identifying Effective Program Comprehension Strategies through Gaze Transitions over Syntactic Elements," The Fourteenth International Workshop on Eye Movements in Programming (EMIP 2026), Marrakech, Morocco, June 1, 2026. （オーラル，査読有）[[ACM][emip2026-acm], [arXiv][emip2026-arxiv]]
+- **<u>Haruhiko Yoshioka</u>**, Takahiro Monno, Haruka Tokumasu, Taiki Wakamatsu, Yuki Ota, Nimmi Weeraddana, Kenichi Matsumoto, "Let's Make Every Pull Request Meaningful: An Empirical Analysis of Developer and Agentic Pull Requests," Mining Software Repositories (MSR) 2026 Mining Challenge, Rio de Janeiro, Brazil, April 13-14, 2026. [[arXiv][agentic-pr-arxiv]]
+- **<u>Haruhiko Yoshioka</u>**, Kazumasa Shimari, Hidetake Uwano, Kenichi Matsumoto, "eye2vec: Learning Distributed Representations of Eye Movement for Program Comprehension Analysis," The 2025 ACM Symposium on Eye Tracking Research & Applications (ETRA2025) LBW, no.51, Tokyo, Japan, 28 May 2025. （ポスター，査読有）[[ACM][eye2vec-acm], [arXiv][eye2vec-arxiv], [LAB][lab-250]]
+- **<u>Haruhiko Yoshioka</u>**, Sila Lertbanjongngam, Masayuki Inaba, Youmei Fan, Takashi Nakano, Kazumasa Shimari, Raula Gaikovina Kula, Kenichi Matsumoto, "Do Developers Depend on Deprecated Library Versions? A Mining Study of Log4j," Mining Software Repositories (MSR) 2025 Mining Challenge, Ottawa, Canada, pages 314-318, April 2025. （オーラル，査読有）[[IEEE][log4j-ieee], [arXiv][log4j-arxiv]]
 - **<u>Haruhiko Yoshioka</u>**, Kazumasa Shimari, Hidetake Uwano, Kenichi Matsumoto, "eye2vec: Vectorization of Eye Movement for Semantic-based Program Comprehension," The 1st International Workshop on Intertwining Research & Education on Software (WIREDS 2024), Osaka, Japan, 7 December 2024.（オーラル，査読なし）
-- **<u>Haruhiko Yoshioka</u>** and Hidetake Uwano, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," In 26th IEEE/ACIS International Winter Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD2023-Winter), Taichung, Taiwan, December 2023. （オーラル，査読有）[[LAB](https://pman.uwanolab.jp/pman3.cgi?D=230)]
-- **<u>Haruhiko Yoshioka</u>** and Hidetake Uwano, "Automatic Mapping of Syntax Trees and Eye Movement for Semantic-Based Program Comprehension Pattern Extraction," In International Symposium on Advances in Technology Education (ISATE) 2022, Online, pages 220-224, September 2022. （オーラル，査読有）[[PDF](https://www.kosen-k.go.jp/wp/wp-content/uploads/2023/12/ISATE2022Proceedings.pdf), [LAB](https://pman.uwanolab.jp/pman3.cgi?D=207)]
+- **<u>Haruhiko Yoshioka</u>** and Hidetake Uwano, "An Analysis of Program Comprehension Process by Eye Movement Mapping to Syntax Trees," In 26th IEEE/ACIS International Winter Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD2023-Winter), Taichung, Taiwan, December 2023. （オーラル，査読有）[[LAB][lab-230]]
+- **<u>Haruhiko Yoshioka</u>** and Hidetake Uwano, "Automatic Mapping of Syntax Trees and Eye Movement for Semantic-Based Program Comprehension Pattern Extraction," In International Symposium on Advances in Technology Education (ISATE) 2022, Online, pages 220-224, September 2022. （オーラル，査読有）[[PDF][isate2022-proceedings], [LAB][lab-207]]
 
 ### 国内会議(査読あり)
 
-- **<u>吉岡春彦</u>**, 上野秀剛, "プログラム理解パターン抽出のための構文木と視線移動の自動マッピング手法," ソフトウェア工学の基礎29, pages 34-42, 2022年11月. （オーラル，査読有）[[DOI](https://doi.org/10.11309/fose.29.0_34), [LAB](https://pman.uwanolab.jp/pman3.cgi?D=208)]
+- **<u>吉岡春彦</u>**, 上野秀剛, "プログラム理解パターン抽出のための構文木と視線移動の自動マッピング手法," ソフトウェア工学の基礎29, pages 34-42, 2022年11月. （オーラル，査読有）[[DOI][fose2022-doi], [LAB][lab-208]]
 
 ### 研究会・全国大会等(査読なし)
 
-- **<u>吉岡春彦</u>**, "プログラム理解のための視線移動の分散表現," 関西圏博士学生・博士進学希望学生交流会 Vol.01, 研究紹介（発表予定）, 立命館大学大阪いばらきキャンパス, 2026年9月24日. [[Web](https://mkhlab.github.io/kansaiphd2026/)]
-- **<u>Haruhiko Yoshioka</u>**, Kazumasa Shimari, Hidetake Uwano, Kenichi Matsumoto, "From Eye Movements to Distributed Representations for Program Comprehension," AI-Driven Software Engineering Summit for Fostering Next-Generation Researchers, Poster, Todaiji, Nara, Japan, 25 November 2025. [[Web](https://posl.ait.kyushu-u.ac.jp/~aidriven2025/)]
+- **<u>吉岡春彦</u>**, "プログラム理解のための視線移動の分散表現," 関西圏博士学生・博士進学希望学生交流会 Vol.01, 研究紹介（発表予定）, 立命館大学大阪いばらきキャンパス, 2026年9月24日. [[Web][kansai-phd2026]]
+- **<u>Haruhiko Yoshioka</u>**, Kazumasa Shimari, Hidetake Uwano, Kenichi Matsumoto, "From Eye Movements to Distributed Representations for Program Comprehension," AI-Driven Software Engineering Summit for Fostering Next-Generation Researchers, Poster, Todaiji, Nara, Japan, 25 November 2025. [[Web][ai-driven2025]]
 - **<u>吉岡春彦</u>**, 嶋利一真, 上野秀剛, 松本健一, "視線移動の分散表現に基づくプログラム理解時の特徴抽出," 情報処理学会研究報告, vol.2025-SE-220, no.7, pages 1-8, 札幌，北海道, 2025年7月15日.
-- **<u>吉岡春彦</u>**, 上野秀剛, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," ソフトウェアエンジニアリングシンポジウム2023論文集, pages 183-190, 2023年8月. （オーラル，査読なし）[[NII](https://cir.nii.ac.jp/crid/1050297194910845184), [LAB](https://pman.uwanolab.jp/pman3.cgi?D=222)]
+- **<u>吉岡春彦</u>**, 上野秀剛, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," ソフトウェアエンジニアリングシンポジウム2023論文集, pages 183-190, 2023年8月. （オーラル，査読なし）[[NII][ses2023-nii], [LAB][lab-222]]
 
 ### 表彰・受賞
 
-- **<u>吉岡春彦</u>**, 上野秀剛, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," ソフトウェアエンジニアリングシンポジウム2023 研究奨励賞, 2023年8月. [[NII](https://cir.nii.ac.jp/crid/1050297194910845184)]
+- **<u>吉岡春彦</u>**, 上野秀剛, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," ソフトウェアエンジニアリングシンポジウム2023 研究奨励賞, 2023年8月. [[NII][ses2023-nii]]
 
 ### 学位論文・卒論・特別研究
 
-- **<u>Haruhiko Yoshioka</u>**, "Learning Distributed Representations of Eye Movement to Analyze Program Comprehension Process," 奈良先端科学技術大学院大学 修士論文, 2025年9月. [[NAIST](https://library.naist.jp/opac/book/115252)]
-- **<u>吉岡春彦</u>**, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," 奈良工業高等専門学校 専攻科特別研究, 2024年2月. [[LAB](https://pman.uwanolab.jp/pman3.cgi?D=225)]
-- **<u>吉岡春彦</u>**, "意味に基づいたプログラム理解パターン抽出のための構文木と視線移動の自動マッピング," 奈良工業高等専門学校 本科卒業研究, 2022年2月. [[LAB](https://pman.uwanolab.jp/pman3.cgi?D=202)]
+- **<u>Haruhiko Yoshioka</u>**, "Learning Distributed Representations of Eye Movement to Analyze Program Comprehension Process," 奈良先端科学技術大学院大学 修士論文, 2025年9月. [[NAIST][masters-thesis]]
+- **<u>吉岡春彦</u>**, "構文木と視線移動の自動マッピング手法を用いたプログラム理解過程の分析," 奈良工業高等専門学校 専攻科特別研究, 2024年2月. [[LAB][lab-225]]
+- **<u>吉岡春彦</u>**, "意味に基づいたプログラム理解パターン抽出のための構文木と視線移動の自動マッピング," 奈良工業高等専門学校 本科卒業研究, 2022年2月. [[LAB][lab-202]]
 
 ## 学歴
 
@@ -79,12 +79,12 @@
 
 ## 学会活動
 
-| 年度                 | 役職                 | 学会・会議名                                                                            |
-| :------------------- | :------------------- | :-------------------------------------------------------------------------------------- |
-| 2025年12月4日〜5日   | Organizing Committee | [GAIA/ECOワークショップ](https://naist-se.github.io/HP_Workshop_GAIA_ECO/)              |
-| 2025年11月25日〜28日 | 学生ボランティア     | [AI-Driven Software Engineering Summit](https://posl.ait.kyushu-u.ac.jp/~aidriven2025/) |
-| 2025年5月26日～29日  | 学生ボランティア     | [ETRA2025](https://etra.acm.org/2025/index.html)                                        |
-| 2024年12月           | 運営/若手チーム      | [国際ワークショップWIREDS2024](https://wireds2024.github.io/)                           |
+| 年度                 | 役職                 | 学会・会議名                                           |
+| :------------------- | :------------------- | :----------------------------------------------------- |
+| 2025年12月4日〜5日   | Organizing Committee | [GAIA/ECOワークショップ][gaia-eco]                     |
+| 2025年11月25日〜28日 | 学生ボランティア     | [AI-Driven Software Engineering Summit][ai-driven2025] |
+| 2025年5月26日～29日  | 学生ボランティア     | [ETRA2025][etra2025]                                   |
+| 2024年12月           | 運営/若手チーム      | [国際ワークショップWIREDS2024][wireds2024]             |
 
 ## 海外研究滞在
 
@@ -105,31 +105,31 @@
 
 ## ハッカソン
 
-| イベント    | 作品                                                                                               | 担当                                                                                                                                                          |
-| :---------- | :------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| JPHACKS2024 | [Eventpix](https://github.com/jphacks/os_2407)：写真から予定を取り込み，カレンダーへ登録するアプリ | チーム開発で，カレンダーへの登録処理と，他のアプリから共有された画像を受け取る処理を実装．[モバイルアプリ](https://github.com/NAIST-Eventpix/eventpix_mobile) |
+| イベント    | 作品                                                                     | 担当                                                                                                                        |
+| :---------- | :----------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| JPHACKS2024 | [Eventpix][eventpix]：写真から予定を取り込み，カレンダーへ登録するアプリ | チーム開発で，カレンダーへの登録処理と，他のアプリから共有された画像を受け取る処理を実装．[モバイルアプリ][eventpix-mobile] |
 
 JPHACKS2024での受賞：
 
-| 区分                                                                     | 受賞・認定                                                                                                                  |
-| :----------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| [JPHACKS Award](https://jphacks.com/2024/result/)                        | [JPHACKS Innovator認定](https://jphacks.com/2024/result/)                                                                   |
-| [JPHACKS Award](https://jphacks.com/2024/result/)                        | Sponsor Awards（株式会社Galirage）                                                                                          |
-| [JPHACKS Hack Day](https://jphacks.com/information/hackday-result-2024/) | [JPHACKS Finalist Award](<https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix)>) |
-| [JPHACKS Hack Day](https://jphacks.com/information/hackday-result-2024/) | Best Hack Day Award                                                                                                         |
-| [JPHACKS Hack Day](https://jphacks.com/information/hackday-result-2024/) | [Sponsor Award（江崎グリコ株式会社）](https://www.glico.com/jp/health/contents/JPHACKS_2024/)                               |
+| 区分                                    | 受賞・認定                                               |
+| :-------------------------------------- | :------------------------------------------------------- |
+| [JPHACKS Award][jphacks2024-award]      | [JPHACKS Innovator認定][jphacks2024-award]               |
+| [JPHACKS Award][jphacks2024-award]      | Sponsor Awards（株式会社Galirage）                       |
+| [JPHACKS Hack Day][jphacks2024-hackday] | [JPHACKS Finalist Award][jphacks2024-finalists]          |
+| [JPHACKS Hack Day][jphacks2024-hackday] | Best Hack Day Award                                      |
+| [JPHACKS Hack Day][jphacks2024-hackday] | [Sponsor Award（江崎グリコ株式会社）][jphacks2024-glico] |
 
 ## 公開ソフトウェア
 
-| ソフトウェア         | 概要                                                                                                                                      | 公開先                                                                                                               |
-| :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------- |
-| semantic-scholar-mcp | AIアシスタントからSemantic Scholarの論文・著者・引用情報を検索するサーバー．Pythonと，AIから外部ツールを呼び出すための仕様であるMCPを使用 | [GitHub](https://github.com/hy20191108/semantic-scholar-mcp)，[PyPI](https://pypi.org/project/semantic-scholar-mcp/) |
+| ソフトウェア         | 概要                                                                                                                                      | 公開先                                                         |
+| :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |
+| semantic-scholar-mcp | AIアシスタントからSemantic Scholarの論文・著者・引用情報を検索するサーバー．Pythonと，AIから外部ツールを呼び出すための仕様であるMCPを使用 | [GitHub][semantic-scholar-code]，[PyPI][semantic-scholar-pypi] |
 
 ## その他の受賞
 
-| 年度     | 受賞名                                                                                  |
-| :------- | :-------------------------------------------------------------------------------------- |
-| 2023年度 | [専攻科研究優秀賞（奈良工業高等専門学校）](https://www.nara-k.ac.jp/life/CAMPUS141.pdf) |
+| 年度     | 受賞名                                                   |
+| :------- | :------------------------------------------------------- |
+| 2023年度 | [専攻科研究優秀賞（奈良工業高等専門学校）][nara-k-award] |
 
 ## 研究助成・フェローシップ
 
@@ -141,6 +141,42 @@ JPHACKS2024での受賞：
 
 ### フェローシップ
 
-| 期間         | 名称                                                         | 備考                                                                |
-| :----------- | :----------------------------------------------------------- | :------------------------------------------------------------------ |
-| 2025年10月～ | NAIST Granite Program（JST次世代研究者挑戦的研究プログラム） | 採択．[インタビュー記事](https://naist-granite.jp/interview/25-72/) |
+| 期間         | 名称                                                         | 備考                                        |
+| :----------- | :----------------------------------------------------------- | :------------------------------------------ |
+| 2025年10月～ | NAIST Granite Program（JST次世代研究者挑戦的研究プログラム） | 採択．[インタビュー記事][granite-interview] |
+
+[eye2vec-acm]: https://doi.org/10.1145/3715669.3726801
+[agentic-pr-arxiv]: https://arxiv.org/abs/2601.18749
+[mapping-springer]: https://link.springer.com/chapter/10.1007/978-3-031-53274-0_10
+[lab-231]: https://pman.uwanolab.jp/pman3.cgi?D=231
+[emip2026-acm]: https://doi.org/10.1145/3797246.3806012
+[emip2026-arxiv]: https://arxiv.org/abs/2607.01042
+[eye2vec-arxiv]: https://arxiv.org/abs/2510.11722
+[lab-250]: https://pman.uwanolab.jp/pman3.cgi?D=250
+[log4j-ieee]: https://ieeexplore.ieee.org/document/11025729/
+[log4j-arxiv]: https://arxiv.org/abs/2504.03167
+[lab-230]: https://pman.uwanolab.jp/pman3.cgi?D=230
+[isate2022-proceedings]: https://www.kosen-k.go.jp/wp/wp-content/uploads/2023/12/ISATE2022Proceedings.pdf
+[lab-207]: https://pman.uwanolab.jp/pman3.cgi?D=207
+[fose2022-doi]: https://doi.org/10.11309/fose.29.0_34
+[lab-208]: https://pman.uwanolab.jp/pman3.cgi?D=208
+[kansai-phd2026]: https://mkhlab.github.io/kansaiphd2026/
+[ai-driven2025]: https://posl.ait.kyushu-u.ac.jp/~aidriven2025/
+[ses2023-nii]: https://cir.nii.ac.jp/crid/1050297194910845184
+[lab-222]: https://pman.uwanolab.jp/pman3.cgi?D=222
+[masters-thesis]: https://library.naist.jp/opac/book/115252
+[lab-225]: https://pman.uwanolab.jp/pman3.cgi?D=225
+[lab-202]: https://pman.uwanolab.jp/pman3.cgi?D=202
+[gaia-eco]: https://naist-se.github.io/HP_Workshop_GAIA_ECO/
+[etra2025]: https://etra.acm.org/2025/index.html
+[wireds2024]: https://wireds2024.github.io/
+[eventpix]: https://github.com/jphacks/os_2407
+[eventpix-mobile]: https://github.com/NAIST-Eventpix/eventpix_mobile
+[jphacks2024-award]: https://jphacks.com/2024/result/
+[jphacks2024-hackday]: https://jphacks.com/information/hackday-result-2024/
+[jphacks2024-finalists]: https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix)
+[jphacks2024-glico]: https://www.glico.com/jp/health/contents/JPHACKS_2024/
+[semantic-scholar-code]: https://github.com/hy20191108/semantic-scholar-mcp
+[semantic-scholar-pypi]: https://pypi.org/project/semantic-scholar-mcp/
+[nara-k-award]: https://www.nara-k.ac.jp/life/CAMPUS141.pdf
+[granite-interview]: https://naist-granite.jp/interview/25-72/
