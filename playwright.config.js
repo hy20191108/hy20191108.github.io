@@ -12,8 +12,7 @@ module.exports = defineConfig({
     screenshot: "only-on-failure",
   },
   webServer: {
-    command:
-      "bundle exec jekyll serve --host 127.0.0.1 --port 4173 --no-watch --skip-initial-build",
+    command: "bun _scripts/serve-site.js",
     url: "http://127.0.0.1:4173",
     reuseExistingServer: false,
   },

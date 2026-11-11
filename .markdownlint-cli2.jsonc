@@ -1,6 +1,13 @@
 {
   "globs": ["**/*.md", "**/*.txt"],
-  "ignores": ["node_modules/**", "vendor/**", "_site/**", "_gh_pages/**"],
+  "ignores": [
+    "node_modules/**",
+    "vendor/**",
+    "_site/**",
+    "_gh_pages/**",
+    "test-results/**",
+    "playwright-report/**",
+  ],
   "config": {
     "default": true,
     // Prettier owns wrapping; bibliography entries and tables remain readable.
