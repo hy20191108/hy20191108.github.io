@@ -111,13 +111,13 @@
 
 JPHACKS2024での受賞：
 
-| 区分             | 受賞・認定                                                                                                                  |
-| :--------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| JPHACKS Award    | [JPHACKS Innovator認定](https://jphacks.com/2024/result/)                                                                   |
-| JPHACKS Award    | Sponsor Awards（株式会社Galirage）                                                                                          |
-| JPHACKS Hack Day | [JPHACKS Finalist Award](<https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix)>) |
-| JPHACKS Hack Day | Best Hack Day Award                                                                                                         |
-| JPHACKS Hack Day | [Sponsor Award（江崎グリコ株式会社）](https://www.glico.com/jp/health/contents/JPHACKS_2024/)                               |
+| 区分                                                                     | 受賞・認定                                                                                                                  |
+| :----------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| [JPHACKS Award](https://jphacks.com/2024/result/)                        | [JPHACKS Innovator認定](https://jphacks.com/2024/result/)                                                                   |
+| [JPHACKS Award](https://jphacks.com/2024/result/)                        | Sponsor Awards（株式会社Galirage）                                                                                          |
+| [JPHACKS Hack Day](https://jphacks.com/information/hackday-result-2024/) | [JPHACKS Finalist Award](<https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix)>) |
+| [JPHACKS Hack Day](https://jphacks.com/information/hackday-result-2024/) | Best Hack Day Award                                                                                                         |
+| [JPHACKS Hack Day](https://jphacks.com/information/hackday-result-2024/) | [Sponsor Award（江崎グリコ株式会社）](https://www.glico.com/jp/health/contents/JPHACKS_2024/)                               |
 
 ## 公開ソフトウェア
 
@@ -127,7 +127,9 @@ JPHACKS2024での受賞：
 
 ## その他の受賞
 
-- [令和5年度修了生 専攻科研究優秀賞](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
+| 年度     | 受賞名                                                                                  |
+| :------- | :-------------------------------------------------------------------------------------- |
+| 2023年度 | [専攻科研究優秀賞（奈良工業高等専門学校）](https://www.nara-k.ac.jp/life/CAMPUS141.pdf) |
 
 ## 研究助成・フェローシップ
 

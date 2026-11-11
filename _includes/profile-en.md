@@ -111,13 +111,13 @@ I compare human and AI code change proposals to understand the characteristics o
 
 Awards at JPHACKS2024:
 
-| Category         | Award/Recognition                                                                                                           |
-| :--------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| JPHACKS Award    | [JPHACKS Innovator Certification](https://jphacks.com/2024/result/)                                                         |
-| JPHACKS Award    | Sponsor Awards (Galirage Inc.)                                                                                              |
-| JPHACKS Hack Day | [JPHACKS Finalist Award](<https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix)>) |
-| JPHACKS Hack Day | Best Hack Day Award                                                                                                         |
-| JPHACKS Hack Day | [Sponsor Award (Ezaki Glico Co., Ltd.)](https://www.glico.com/jp/health/contents/JPHACKS_2024/)                             |
+| Category                                                                 | Award/Recognition                                                                                                           |
+| :----------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| [JPHACKS Award](https://jphacks.com/2024/result/)                        | [JPHACKS Innovator Certification](https://jphacks.com/2024/result/)                                                         |
+| [JPHACKS Award](https://jphacks.com/2024/result/)                        | Sponsor Awards (Galirage Inc.)                                                                                              |
+| [JPHACKS Hack Day](https://jphacks.com/information/hackday-result-2024/) | [JPHACKS Finalist Award](<https://jphacks.com/information/award-finalists2024/#:~:text=Eventpix(OS_2407%EF%BC%9AEventpix)>) |
+| [JPHACKS Hack Day](https://jphacks.com/information/hackday-result-2024/) | Best Hack Day Award                                                                                                         |
+| [JPHACKS Hack Day](https://jphacks.com/information/hackday-result-2024/) | [Sponsor Award (Ezaki Glico Co., Ltd.)](https://www.glico.com/jp/health/contents/JPHACKS_2024/)                             |
 
 ## Published Software
 
@@ -127,7 +127,9 @@ Awards at JPHACKS2024:
 
 ## Other Awards
 
-- [2023 Academic Excellence Award for Graduates, National Institute of Technology, Nara College](https://www.nara-k.ac.jp/life/CAMPUS141.pdf)
+| Academic Year | Award                                                                                                                                  |
+| :------------ | :------------------------------------------------------------------------------------------------------------------------------------- |
+| 2023          | [Academic Excellence Award for Graduates, National Institute of Technology, Nara College](https://www.nara-k.ac.jp/life/CAMPUS141.pdf) |
 
 ## Research Grants & Fellowships
 
