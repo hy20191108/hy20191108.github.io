@@ -10,18 +10,17 @@
 
 ## ローカルで確認する
 
-CI と同じ Ruby 3.3.4、Bundler 2.5.11、Node.js 24 を使用する。
+Dockerを起動し，actでGitHub Actionsと同じビルドジョブをコンテナ内で実行する．ホストへのRuby・Node.jsのインストールは不要．
 
 ```sh
-bundle install
-npm ci
-npm run format
-bundle exec standardrb --fix
-npm run check
-bundle exec jekyll serve
+act pull_request
 ```
 
-`npm run check` は整形、Markdown、SCSS、Ruby、Jekyll ビルド、生成物の受入検査、HTML 構文を順に検査する。自動修正は `npm run format` と `bundle exec standardrb --fix`、SCSS の自動修正は `npx stylelint '_sass/**/*.scss' --fix` で行う。
+`.actrc`でUbuntu 24.04の実行イメージと`build`ジョブを指定している．`pull_request`として実行するため，成果物のアップロードと公開は行わない．Dockerの接続先は`DOCKER_HOST`で指定できる．
+
+ビルドジョブでは，整形，Markdown，SCSS，Ruby，Jekyllビルド，生成物の受入確認，HTML構文の確認に続き，ChromiumでページのコピーとMarkdown表示を確認する．日本語・英語，スマートフォン幅，コピーに失敗した場合，JavaScriptを無効にした場合を対象にする．
+
+実行環境を用意済みの場合は，`npm run check`と`npm run test:browser`を個別に実行できる．ブラウザテストはJekyllサーバーを起動し，終了時に停止する．自動修正には`npm run format`と`bundle exec standardrb --fix`を使う．
 
 SCSS の本体は `_sass/` に置く。`styles.scss` は Jekyll の front matter と読み込み宣言だけを持つ。Ruby Sass との互換性のため、色関数とメディアクエリは従来構文に固定する。Markdown の行折り返しは Prettier に任せ、HTML を含むテンプレートの構文は生成後にも検査する。
 
