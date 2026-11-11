@@ -60,6 +60,12 @@ I am researching methods to automatically interpret software developers' eye tra
 | 2022/04~ | Department of Advanced Information Engineering, National Institute of Technology, Nara College (Valedictorian)                         |
 | 2017/04~ | Department of Information Engineering, National Institute of Technology, Nara College                                                  |
 
+## Internships
+
+| Period                        | Organization                                                  | Research Topic                                            |
+| :---------------------------- | :------------------------------------------------------------ | :-------------------------------------------------------- |
+| September 16–October 23, 2026 | NEC Corporation, Secure System Platform Research Laboratories | Research and development for AI-driven system development |
+
 ## Academic Activities
 
 | Period        | Role                            | Conference/Organization                                                                 |
